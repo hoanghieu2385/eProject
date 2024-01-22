@@ -5,3 +5,4 @@ test pull 3 ( web )
 test pull 4
 test pull 5
 test pull 6
+get pull 7
