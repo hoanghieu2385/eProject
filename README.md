@@ -8,3 +8,5 @@ test pull 6
 get pull 7
 git pull 9
 git pull 10
+git pull 10
+git 11
