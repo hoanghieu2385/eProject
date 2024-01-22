@@ -6,3 +6,4 @@ test pull 4
 test pull 5
 test pull 6
 get pull 7
+git pull 8
