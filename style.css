@@ -75,34 +75,3 @@ nav{
 #main-menu ul.sub-menu li:last-child a {
     border: none;
 }
-
-/* 
-.container ul li {
-    display: inline-block;
-    margin: 0 5%;
-    font-size: larger;
-}
-
-.container ul li a {
-    text-decoration: none;
-    color: #F1F1F1;    
-    display        : block;
-}
-
-.container ul li a:hover {
-    background: #F1F1F1;
-    color     : #0C0A0A;
-}
-
-.container ul li>.sub-menu {
-    display : none;
-    position: absolute;
-}
-
-.sub-menu {
-    display : none;
-    position: absolute;
-}
-.container ul li:hover .sub-menu {
-    display: block;
-} */

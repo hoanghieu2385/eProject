@@ -1,3 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* add font roboto cho web */
+
+/* bat dau phan header */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.logo img{
+  max-width: 50px;
+  height: auto;
+}
+
+#main-menu{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-menu li{
+  position: relative;
+}
+
+#main-menu li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+  position: absolute;
+  background-color: rgb(38, 34, 34);
+  padding: 5px 0;
+  list-style: none;
+  width: 130px;
+  display: none;
+}
+
+#main-menu li:hover ul.sub-menu {
+  display: block;
+}
+
+#main-menu ul.sub-menu a {
+  padding: 8px 15px;
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu a:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu li:last-child a {
+  border: none;
+}
+
+/* Ket thuc chinh header */
+  
+body{
+  background-image: url(../images/index-bg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+    
+    
     .div {
       background-color: #fff;
       display: flex;
