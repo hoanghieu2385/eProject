@@ -79,6 +79,33 @@ body {
     margin             : 0 auto;
 }
 
+.one{
+    display: flex;
+}
+.one img{
+    width: 100%;
+    height: auto;
+}
+
+.product-1{
+    display: flex;
+}
+
+.product-1 img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+/* ket thuc phan body */
+
+
+
 
 /* bat phan footer */
 .column {
@@ -86,7 +113,7 @@ body {
     width: 33.33%;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
