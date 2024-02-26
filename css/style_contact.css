@@ -3,10 +3,12 @@
 * {
     font-family: Roboto;
     color      : white;
+    box-sizing : border-box;
 
 }
 
-/* bat dau phan header */
+/* -------------------- bat dau phan header  --------------------*/
+
 .container {
     max-width: 960px;
     margin   : 0 auto;
@@ -68,7 +70,8 @@ nav {
     border: none;
 }
 
-/* ket thuc phan header */
+/* -------------------- ket thuc phan header --------------------*/
+
 
 body {
     background-image   : url(../images/index-bg-dai.png);
@@ -79,31 +82,86 @@ body {
     margin             : 0 auto;
 }
 
+.contact-in {
+    display: flex;
+}
 
-/* bat phan footer */
+
+form {
+    margin       : auto 15%;
+    margin-bottom: 15em;
+}
+
+form input {
+    margin-left     : 3%;
+    background-color: #ededed;
+    color           : white;
+    border-radius   : 8px;
+    height          : 30px;
+    color: black;
+
+}
+
+form textarea {
+    margin-left     : 3%;
+    background-color: #ededed;
+    border-radius   : 8px;
+    height          : 120px;
+    color: black;
+}
+
+form button {
+    margin-left            : 3%;
+    background-color       : #404c66;
+    color                  : white;
+    border                 : none;
+    padding                : 5px;
+    background-color: rgb(60, 107, 184); 
+    border-radius: 8px; 
+    margin-left: 5%;
+
+}
+
+.iframe-container {
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+/* -------------------- ket thuc phan body --------------------*/
+
+
+
+/* -------------------- bat phan footer  --------------------*/
 .column {
     float: left;
     width: 33.33%;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear  : both;
 }
 
-.benefits{
+.benefits {
     padding-left: 4%;
 }
-.loiich{
+
+.loiich {
     padding-left: 7%;
 
 }
 
 
-.copyright{
+.copyright {
     justify-content: space-between;
-    text-align: center;
+    text-align     : center;
 }
-/* ket thuc phan footer */
+
+/* -------------------- ket thuc phan footer --------------------*/
