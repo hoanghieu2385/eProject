@@ -6,7 +6,7 @@
 
 }
 
-/* bat dau phan header */
+/* -------------------- bat dau phan header --------------------*/
 .container {
     max-width: 960px;
     margin   : 0 auto;
@@ -20,7 +20,7 @@ nav {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 220px;
     height   : auto;
 }
 
@@ -68,21 +68,19 @@ nav {
     border: none;
 }
 
-/* ket thuc phan header */
+/* -------------------- ket thuc phan header --------------------*/
+
+
+
+/*-------------------- bat dau phan body --------------------*/
 
 body {
-    background-image   : url(../images/index-bg-dai.png);
+    background-color: rgb(31, 33, 34);
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
     max-width          : 1050px;
     margin             : 0 auto;
-}
-.main{
-    background-color: rgba(12, 0, 0, 0.5);
-}
-.about-text{
-    font-size: 17px;
 }
 .bigbox {
     align-items: center;
@@ -95,79 +93,90 @@ body {
     padding:80px;
 }
 
-.about {
+/* .about {
     display: flex;
     font-size: small;
     align-items: center;
     top: 0;
     left: 0;
-}
-.about-text{
-    align-items: left;
-    display: flex;
-    max-width: 800px;
-}
-.aboutproduct{
-    background-color: rgba(12, 0, 0, 0.5);
+} */
+.about-img{
+    width: 100px;
+    height: 100px;
 }
 
-.product1-text{
-    margin: 100px;
+/* .about{
     display: flex;
-
-}
-.product2-text{
-    margin: 100px;
-    display: flex;
-    text-align: left;
-    align-items: right;
-}
-.product3-text{
-    margin: 100px;
-    display: flex;
+    box-sizing: border-box;
+    background-color:rgba(87, 87, 80, 0.34);
+    border-radius: 2%;
+    padding: 30px;
+    clear: both;
+    font-size: larger;
 }
 .about img{
+    width: 100%;
+    height: auto; */
+/* }
+
+.image {
+    width: 100%;
+    clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
+} */
+
+
+.product-1{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.product-1 img{
+    width: 100%;
     height: auto;
-    width: 200px;
-    align-items: right;
-    display: flex;
-    clear: both;
 }
-.product1 img{
+
+
+.product-2{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.product-2 img{
+    width: 100%;
     height: auto;
-    width: 300px;
-    display: flex;
-    margin: 100px;
-    clear: both;
 }
-.product2-img{
-    size: auto;
-    width: 300px;
-    height: 350px;
+
+.product-3{
     display: flex;
-    margin: 100px;
-    clear: both;
+    margin-bottom: 5%;
 }
-.product3 img{
-    size: 60%;
+
+.product-3 img{
+    width: 100%;
     height: auto;
-    width: 300px;
-    display: flex;
-    margin: 100px;
-    clear: both;
+}
+
+.mota_benphai{
+    margin-left: 5%;
 }
 
 
 
 
+/*-------------------- ket thuc phan body --------------------*/
 
-/* bat phan footer */
+
+
+
+/*-------------------- bat dau phan footer --------------------*/
 .column {
     float: left;
     width: 33.33%;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
@@ -187,4 +196,4 @@ body {
     justify-content: space-between;
     text-align: center;
 }
-/* ket thuc phan footer */
+/*-------------------- ket thuc phan footer --------------------*/
