@@ -22,7 +22,7 @@ nav {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 220px;
     height   : auto;
 }
 
@@ -81,6 +81,8 @@ body {
     max-width          : 1050px;
     margin             : 0 auto;
 }
+
+
 
 .contact-in {
     display: flex;

@@ -20,7 +20,7 @@ nav {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 220px;
     height   : auto;
 }
 
@@ -69,6 +69,8 @@ nav {
 }
 
 /* -------------------- ket thuc phan header --------------------*/
+
+/*-------------------- bat dau phan body --------------------*/
 
 body {
     background-image   : url(../images/index-bg-dai.png);

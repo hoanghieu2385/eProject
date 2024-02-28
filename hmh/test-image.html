@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .image-container {
+      width: 300px; /* Đặt kích thước cho container */
+      overflow: hidden; /* Ẩn phần nằm ngoài container */
+    }
+
+    .image {
+      width: 100%; /* Ảnh sẽ chiếm toàn bộ chiều rộng của container */
+      clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 25% 100%); /* Đặt clip-path để cắt ảnh theo mong muốn */
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="../images/index-bg.jpg" alt="Your Image" class="image">
+</div>
+
+</body>
+</html>
