@@ -70,96 +70,35 @@ nav {
 
 /* -------------------- ket thuc phan header --------------------*/
 
-
-
 /*-------------------- bat dau phan body --------------------*/
 
 body {
-    background-color: rgb(31, 33, 34);
+    background-image   : url(../images/index-bg-dai.png);
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
     max-width          : 1050px;
     margin             : 0 auto;
 }
-.bigbox {
-    align-items: center;
-    margin: 100px;
-    font-size: 80%;
-    height: 50px;
-    width: 700px;
-    background-color: rgba(12, 0, 0, 0.5);
+
+h1, p {
     text-align: center;
-    padding:80px;
 }
 
-/* .about {
+.container {
     display: flex;
-    font-size: small;
     align-items: center;
-    top: 0;
-    left: 0;
-} */
-.main img{
-    width: 100px;
-    height: 100px;
 }
 
-/* .about{
-    display: flex;
-    box-sizing: border-box;
-    background-color:rgba(87, 87, 80, 0.34);
-    border-radius: 2%;
-    padding: 30px;
-    clear: both;
-    font-size: larger;
-}
-.about img{
-    width: 100%;
-    height: auto; */
-/* }
-
-.image {
-    width: 100%;
-    clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
-} */
-
-
-.product-1{
-    display: flex;
-    margin-top: 2%;
-    
+.container img {
+    width: 300px; /* Độ rộng của ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
-.product-1 img{
-    width: 100%;
-    height: auto;
-}
-
-
-.product-2{
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.product-2 img{
-    width: 100%;
-    height: auto;
-}
-
-.product-3{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-.product-3 img{
-    width: 100%;
-    height: auto;
-}
-
-.mota_benphai{
-    margin-left: 5%;
+.container p {
+    display: inline-block; /* Hiển thị văn bản như một phần tử inline-block */
+    vertical-align: middle; /* Canh giữa văn bản theo chiều dọc */
 }
 
 
@@ -168,14 +107,11 @@ body {
 /*-------------------- ket thuc phan body --------------------*/
 
 
-
-
-/*-------------------- bat dau phan footer --------------------*/
+/*-------------------- bat phan footer --------------------*/
 .column {
     float: left;
     width: 33.33%;
 }
-
 
 .row:after {
     content: "";
