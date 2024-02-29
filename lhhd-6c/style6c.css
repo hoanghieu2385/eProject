@@ -20,7 +20,7 @@ nav {
 }
 
 .logo img {
-    max-width: 220px;
+    max-width: 50px;
     height   : auto;
 }
 
@@ -70,8 +70,6 @@ nav {
 
 /* -------------------- ket thuc phan header --------------------*/
 
-/*-------------------- bat dau phan body --------------------*/
-
 body {
     background-image   : url(../images/index-bg-dai.png);
     background-repeat  : no-repeat;
@@ -81,17 +79,52 @@ body {
     margin             : 0 auto;
 }
 
+.container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
 
+.rectangle {
+    width: 700px; /* Chiều rộng của hình chữ nhật */
+    height: 80px; /* Chiều cao của hình chữ nhật */
+    background-color: #322E63; /* Màu nền của hình chữ nhật */
+    border-radius: 20px; /* Tạo hình dạng không góc */
+    position: relative; /* Đảm bảo phần tử con được định vị tương đối đối với phần tử cha */
+    text-align: center;
+}
 
+.text {
+    position: absolute; /* Định vị tuyệt đối cho chữ */
+    font-weight: bold;
+    font-size: 30px;
+    top: 50%; /* Đẩy chữ lên giữa theo chiều dọc */
+    left: 50%; /* Đẩy chữ ra giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chữ đi giữa cả chiều ngang và chiều dọc */
+    color: #fff; /* Màu chữ */
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
 
-
-
-
-
-
-
+.image-container img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+    border-radius: 40px;
+    height: auto;
+}
 
 
 /*-------------------- ket thuc phan body --------------------*/
