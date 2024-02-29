@@ -3,6 +3,8 @@
 * {
     font-family: Roboto;
     color      : white;
+    word-spacing: 5%;
+
 
 }
 
@@ -70,8 +72,12 @@ nav {
 
 /* -------------------- ket thuc phan header --------------------*/
 
+
+
+/*-------------------- bat dau phan body --------------------*/
+
 body {
-    background-image   : url(../images/index-bg-dai.png);
+    background-color: rgb(31, 33, 34);
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
@@ -79,15 +85,62 @@ body {
     margin             : 0 auto;
 }
 
+.about{
+    display: flex;
+    box-sizing: border-box;
+    background-color:rgba(87, 87, 80, 0.34);
+    border-radius: 2%;
+    padding: 30px;
+    clear: both;
+    font-size: larger;
+}
+.about img{
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
+}
 
 
+.product-1{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.product-1 img{
+    width: 100%;
+    height: auto;
+}
 
 
+.product-2{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+.product-2 img{
+    width: 100%;
+    height: auto;
+}
 
+.product-3{
+    display: flex;
+    margin-bottom: 5%;
+}
 
+.product-3 img{
+    width: 100%;
+    height: auto;
+}
 
-
+.mota_benphai{
+    margin-left: 5%;
+}
 
 
 
@@ -95,11 +148,14 @@ body {
 /*-------------------- ket thuc phan body --------------------*/
 
 
-/*-------------------- bat phan footer --------------------*/
+
+
+/*-------------------- bat dau phan footer --------------------*/
 .column {
     float: left;
     width: 33.33%;
 }
+
 
 .row:after {
     content: "";
