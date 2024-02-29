@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: Roboto;
+    color      : white;
+
+}
+
+/* -------------------- bat dau phan header --------------------*/
+.container {
+    max-width: 960px;
+    margin   : 0 auto;
+
+}
+
+nav {
+    display        : flex;
+    justify-content: space-between;
+    justify-items  : center;
+}
+
+.logo img {
+    max-width: 220px;
+    height   : auto;
+}
+
+#main-menu {
+    display   : flex;
+    list-style: none;
+    margin    : 0;
+    padding   : 0;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color          : white;
+    display        : block;
+    padding        : 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position        : absolute;
+    background-color: rgb(38, 34, 34);
+    padding         : 5px 0;
+    list-style      : none;
+    width           : 130px;
+    display         : none;
+}
+
+#main-menu li:hover ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a {
+    padding      : 8px 15px;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu a:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: none;
+}
+
+/* -------------------- ket thuc phan header --------------------*/
+
+/*-------------------- bat dau phan body --------------------*/
+
+body {
+    background-image   : url(../images/index-bg-dai.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    max-width          : 1050px;
+    margin             : 0 auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 300px; /* Độ rộng của ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.container p {
+    display: inline-block; /* Hiển thị văn bản như một phần tử inline-block */
+    vertical-align: middle; /* Canh giữa văn bản theo chiều dọc */
+}
+
+
+
+
+/*-------------------- ket thuc phan body --------------------*/
+
+
+/*-------------------- bat phan footer --------------------*/
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear  : both;
+}
+
+.benefits{
+    padding-left: 4%;
+}
+.loiich{
+    padding-left: 7%;
+
+}
+
+
+.copyright{
+    justify-content: space-between;
+    text-align: center;
+}
+/*-------------------- ket thuc phan footer --------------------*/
