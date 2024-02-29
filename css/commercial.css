@@ -3,12 +3,12 @@
 * {
     font-family: Roboto;
     color      : white;
-    box-sizing : border-box;
+    word-spacing: 5%;
+
 
 }
 
-/* -------------------- bat dau phan header  --------------------*/
-
+/* -------------------- bat dau phan header --------------------*/
 .container {
     max-width: 960px;
     margin   : 0 auto;
@@ -73,8 +73,11 @@ nav {
 /* -------------------- ket thuc phan header --------------------*/
 
 
+
+/*-------------------- bat dau phan body --------------------*/
+
 body {
-    background-image   : url(../images/index-bg-dai.png);
+    background-color: rgb(31, 33, 34);
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
@@ -82,68 +85,77 @@ body {
     margin             : 0 auto;
 }
 
-
-
-.contact-in {
+.about{
     display: flex;
+    box-sizing: border-box;
+    background-color:rgba(87, 87, 80, 0.34);
+    border-radius: 2%;
+    padding: 30px;
+    clear: both;
+    font-size: larger;
 }
-
-
-form {
-    margin       : auto 15%;
-    margin-bottom: 15em;
-}
-
-form input {
-    margin-left     : 3%;
-    background-color: #ededed;
-    color           : white;
-    border-radius   : 8px;
-    height          : 30px;
-    color: black;
-
-}
-
-form textarea {
-    margin-left     : 3%;
-    background-color: #ededed;
-    border-radius   : 8px;
-    height          : 120px;
-    color: black;
-}
-
-form button {
-    margin-left            : 3%;
-    background-color       : #404c66;
-    color                  : white;
-    border                 : none;
-    padding                : 5px;
-    background-color: rgb(60, 107, 184); 
-    border-radius: 8px; 
-    margin-left: 5%;
-
-}
-
-.iframe-container {
+.about img{
     width: 100%;
+    height: auto;
+}
 
+.image {
+    width: 100%;
+    clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.product-1{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.product-1 img{
+    width: 100%;
+    height: auto;
+}
+
+
+.product-2{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.product-2 img{
+    width: 100%;
+    height: auto;
+}
+
+.product-3{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.product-3 img{
+    width: 100%;
+    height: auto;
+}
+
+.mota_benphai{
+    margin-left: 5%;
 }
 
 
 
 
+/*-------------------- ket thuc phan body --------------------*/
 
 
 
-/* -------------------- ket thuc phan body --------------------*/
 
-
-
-/* -------------------- bat phan footer  --------------------*/
+/*-------------------- bat dau phan footer --------------------*/
 .column {
     float: left;
     width: 33.33%;
 }
+
 
 .row:after {
     content: "";
@@ -151,19 +163,17 @@ form button {
     clear  : both;
 }
 
-.benefits {
+.benefits{
     padding-left: 4%;
 }
-
-.loiich {
+.loiich{
     padding-left: 7%;
 
 }
 
 
-.copyright {
+.copyright{
     justify-content: space-between;
-    text-align     : center;
+    text-align: center;
 }
-
-/* -------------------- ket thuc phan footer --------------------*/
+/*-------------------- ket thuc phan footer --------------------*/
