@@ -20,7 +20,7 @@ nav {
 }
 
 .logo img {
-    max-width: 220px;
+    max-width: 50px;
     height   : auto;
 }
 
@@ -79,9 +79,51 @@ body {
     margin             : 0 auto;
 }
 
+.text-with-image {
+    position: relative;
+}
 
+.image-text {
+    background: url('img/R.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
+.image-container {
+    position: relative;
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    border-radius: 85px; /* Độ cong của góc hình chữ nhật */
+    overflow: hidden; /* Loại bỏ các phần của hình ảnh vượt ra ngoài phần bo tròn */
+    width: 900px; /* Chiều rộng mong muốn của khung hình chữ nhật */
+    height:230px; /* Chiều cao mong muốn của khung hình chữ nhật */
+}
 
+.image-text {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+img {
+    display: block;
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy khung hình chữ nhật */
+    height: auto;
+}
+
+.image-container .image-text h1 {
+    font-size: 40px; /* Đặt kích thước chữ cho tiêu đề h1 */
+}
+
+.image-container .image-text p {
+    font-size: 11px; /* Đặt kích thước chữ cho đoạn văn */
+}
 
 
 
