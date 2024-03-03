@@ -1,110 +1,325 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Rain Water Harvest</title>
-        <link rel="stylesheet" href="./css/eProject-tung.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./media/logo.png">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f955b13853.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-    <header>
-        <div id="wrapper">
-            <div id="header">
-                <nav class="container">
-                    <a href="index.html" class="logo">
-                        <img src="../eProject/media/logo.png" alt="Rainwater Harvesting">
-                    </a>
-                    <ul id="main-menu">
-                        <li>
-                            <a href="#">Learn</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">Residential</a></li>
-                                <li><a href="#">Commercial</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">About Us</a></li>
-                    </ul>
-                </nav>
+    <style>
+
+        body {
+            background: #1f1f1f;
+        }
+        
+        [class*="col"] {
+            padding: 1rem;
+            border: 2px;
+            color: #fff;
+        }
+
+        ul#menu {
+            text-align: center;
+        }
+
+        ul#menu li {
+            display: inline;
+            padding: 15px;
+            max-width: 50px;
+        }
+
+        ul#menu li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: large;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .big-banner {
+            background-image: url(../cdn/media/window.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #intro {
+            background-color: transparent;
+            border: none;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .centered-card-body {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #text-1 {
+            background-color: transparent;
+            border: none;
+        }
+
+        #image-in-content {
+            max-height: 640px;
+            width: 420px;
+        }
+
+        #yellow-text {
+            color: yellow;
+            padding-bottom: 13px;
+        }
+
+        #links {
+           text-decoration: none;
+           color:beige;
+        }
+
+        #footer {
+            padding-top: 100px;
+        }
+
+        #footer-card {
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+
+        #footer-col-1 {
+            padding: 0 1rem;
+        }
+
+        #footer-col-2 {
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        #footer-col-3 {
+            padding: 0 1rem;
+        }
+
+        #social {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        
+
+    </style>
+
+    <div class="big-banner">
+
+      <div class="container-fluid" id="header">
+        <div class="row" id="navbar">
+            <div class="col-md-9"><a href="index-project.html" class="logo"><img src="../cdn/media/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
+            <div class="col-md-3">
+                <ul id="menu">
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
         </div>
-    </header>
+      </div>
 
-    <body>
-        <div></div>
-        <div></div>
-        <div></div>
-    </body>
+      <div class="container-fluid my-5">
+        <div class="card text-center" id="intro" style="height: 45rem;">
+          <div class="row">
+            <div class="col centered">
+              <h5 id="yellow-text">A GUIDE ABOUT</h5>
+              <h1>Rain Water Harvesting</h1>
+              <h6>scroll down <span><i class="fa-solid fa-angles-down"></i></i></span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <div class="row">
-            <div class="column-footer-1">
-                <div >
-                    <div>RAINWATER HARVESTING  </div><br/>
-                    <p class="benefits"> Key Benefits: </p><br/>
-                    <p class="loiich">
-                        <t/> - Conservation of water resources <br/><br/>
-                        <t/> - Reduction of runoff and soil erosion <br/><br/>
-                        <t/> - Cost - effective and sustainable water supply<br/><br/>
-                    </p>
-                    <h8> <i>Start your rainwater harvesting journey today and contribute to a more sustainable future!</i></h8>  <br/> <br/>
+    </div>
+
+    <div id="main-content">
+
+      <div class="container my-5">
+        <div class="card mb-3" style="width: auto;" id="text-1">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body centered-card-body">
+                  <h6 id="yellow-text">Let's Begin With</h6>
+                  <h3 class="card-title">What is Rain Water Harvesting?</h3>
+                  <p class="card-text">Rainwater harvesting is a sustainable practice that involves 
+                    collecting and storing rainwater for later use. This method utilizes gutters and 
+                    pipes to direct rainfall from rooftops or catchment areas into storage tanks. 
+                    The harvested water can serve domestic, irrigation, or industrial needs, providing 
+                    a supplementary and eco-friendly water source. This practice reduces reliance on 
+                    conventional water sources, minimizes runoff, and promotes water conservation at 
+                    various scales, from individual households to larger urban and industrial settings.</p>
+                  <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
                 </div>
-            </div>
-            <div class="column-footer-2">
-                <div >
-                    <div >MORE ON THE BLOG</div>
-                    <ul>
-                        <li>
-                            <a href="#learn">Learn</a> <br/>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#new">New</a> <br/>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="#about">About Us</a> <br/>
-                        </li>
-                    </ul>
-                    
-                </div>
-            </div>
-    
-            <div class="column-footer-3">
-                <div>
-                    <div>CONTACT IRRIGATION VIETNAMESE</div>  <br/>
-                    <div>
-                        <div>
-                            ⇰ Phone: 123 456 789
-                            <br />
-                            <br />
-                            ⇰ Email: info@nhom2deptraivippro.org.au
-                            <br />
-                            <br />
-                            ⇰ Address: 8 Tôn Thất Thuyết, P.Mỹ Đình, Q.Nam Từ Liêm  <br/> <br/>
-                        </div>
-    
-                        <div class="social-media">
-                            <img loading="lazy"
-                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d1e48feec229a13a60a60535a1154f5f54db9beb97e0889925f41e08381a6988?apiKey=dd2c83f1d5284814b78656c2760f3b02&"
-                                class="facebook" />
-                            <img loading="lazy"
-                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/08235332cc2d769ddf9f8ace36020f756644c4d144fa1a7c23b80a6b3544d397?apiKey=dd2c83f1d5284814b78656c2760f3b02&"
-                                class="instagram" />
-                            <img loading="lazy"
-                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1619e8cd6af79c1d79966352a5f7001d4eacfca75a26268b758a40eb42e8aec2?apiKey=dd2c83f1d5284814b78656c2760f3b02&"
-                                class="youtube" />
-                            <img loading="lazy"
-                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa27abadb8999019c96a34a39041e54322e7a38c345552d466e5cbed2111c168?apiKey=dd2c83f1d5284814b78656c2760f3b02&"
-                                class="twitter" />
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div class="col-md-5">
+                <img src="../cdn/media/roof.jpg" class="img-fluid rounded-end" alt="roof" id="image-in-content">
+              </div>
             </div>
         </div>
-        <div class="copyright">Copyright &copy; Group2 rainwater harvesting</div>
+      </div>
+  
+      <div class="container my-5">
+          <div class="card mb-3" style="width: auto;" id="text-1">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="../cdn/media/city.jpg" class="img-fluid rounded-end" alt="city" id="image-in-content">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body centered-card-body">
+                    <h6 id="yellow-text">Next, Figure Out</h6>
+                    <h3 class="card-title">What area do you reside in?</h3>
+                    <p class="card-text">In residential and commercial areas, rainwater harvesting is 
+                      pivotal for sustainable water use. By capturing rainwater from rooftops and surfaces, 
+                      this practice offers a reliable on-site water source. In residential settings, it 
+                      ensures water availability during dry spells, reduces reliance on municipal water, 
+                      and supports eco-friendly practices. In commercial areas, rainwater harvesting can 
+                      contribute to green building initiatives, decrease water costs, and enhance overall 
+                      environmental sustainability. Embracing this approach not only benefits individual 
+                      households and businesses but also promotes responsible water management in urban 
+                      environments.</p>
+                    <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="container my-5">
+        <div class="card mb-3" style="width: auto;" id="text-1">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body centered-card-body">
+                  <h6 id="yellow-text">Did You Know These</h6>
+                  <h3 class="card-title">Facts about harvesting Rain</h3>
+                  <p class="card-text">
+                    Embracing rainwater harvesting is not just a practice; it's a solution with 
+                    multifaceted benefits. From providing a sustainable water source to minimizing 
+                    environmental impact and enhancing community resilience, this method offers a 
+                    cost-efficient and versatile approach applicable in both residential and commercial 
+                    settings. In the following facts, we explore the key aspects that underscore the 
+                    importance of harvesting rain for a more sustainable water future.</p>
+                  <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img src="../cdn/media/hand.jpg" class="img-fluid rounded-end" alt="hand" id="image-in-content">
+              </div>
+            </div>
+        </div>
+      </div>
+  
+      <div class="container my-5">
+          <div class="card mb-3" style="width: auto;" id="text-1">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="../cdn/media/idea.jpg" class="img-fluid rounded-end" alt="idea" id="image-in-content">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body centered-card-body">
+                    <h6 id="yellow-text">The Latest Of</h6>
+                    <h3 class="card-title">Innovations and improvements in Rain Harvesting</h3>
+                    <p class="card-text">As we navigate towards a more sustainable future, innovations 
+                      and improvements in rainwater harvesting have played a pivotal role. From technological 
+                      advancements to design enhancements, these developments are reshaping how we harness 
+                      and utilize rainwater. In the following exploration, we delve into the latest innovations 
+                      that are revolutionizing rainwater harvesting, offering more efficient, scalable, 
+                      and eco-friendly solutions for water conservation in diverse environments.</p>
+                    <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid" id="footer">
+
+      <div class="row row-cols-3 row-cols-md-3">
+
+        <div class="col" id="footer-col-1">
+          <div class="card" id="footer-card">
+            <div class="card-body">
+              <h5 class="card-title">Rain Water Harvesting <span><i class="fa-solid fa-droplet"></i></span></h5>
+              <div>
+                <p>
+                  Key Benefits:<br/>
+                  - Conservation of water sources<br/>
+                  - Reduction of runoff and soil erosion<br/>
+                  - Cost-effective and sustainable supply<br/>
+                </p>
+                
+                <p>
+                  Start your rainwater harvesting journey today and contribute to a more sustainable future!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col" id="footer-col-2">
+          <div class="card" id="footer-card">
+            <div class="card-body">
+              <h5 class="card-title">More on the Blog</h5>
+              <p class="card-text">
+                <p><a href="#" id="links">Learn</a></p>
+                <p><a href="#" id="links">News</a></p>
+                <p><a href="#" id="links">About Us</a></p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="footer-col-3">
+          <div class="card" id="footer-card">
+            <div class="card-body">
+              <h5 class="card-title">Contact Irrigation Vietnam</h5>
+              <p class="card-text">
+                <p><span><i class="fa-solid fa-phone"></i></span>   Hotline: <a href="#" id="links">(+84) 911659131</a></p>
+                <p><span><i class="fa-solid fa-envelope"></i></span>   Email: <a href="#" id="links">irrigation.vn@gmail.com</a></p>
+                <p><span><i class="fa-solid fa-map-location-dot"></i>   Address: 8, Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm, Hà Nội</span></p>
+                <p>
+                  <span><a href="#" id="social"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></span>
+                  <span><a href="#" id="social"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></span>
+                  <span><a href="#" id="social"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></a></span>
+                  <span><a href="#" id="social"><i class="fa-brands fa-square-youtube fa-2xl"></i></a></span>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="text-center text-white">
+      <div class="text-center p-3">
+        © 2024 Copyright:
+        <a class="text-white" href="#">Irrigation.vn.com</a>
+      </div>
     </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
 </html>
