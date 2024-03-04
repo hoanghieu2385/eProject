@@ -3,15 +3,13 @@
 * {
     font-family: Roboto;
     color      : white;
+    background-color: black;
+
 
 }
 
 /* -------------------- bat dau phan header --------------------*/
-.container {
-    max-width: 960px;
-    margin   : 0 auto;
 
-}
 
 nav {
     display        : flex;
@@ -20,7 +18,7 @@ nav {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 220px;
     height   : auto;
 }
 
