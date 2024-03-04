@@ -3,15 +3,13 @@
 * {
     font-family: Roboto;
     color      : white;
+    background-color: black;
+
 
 }
 
 /* -------------------- bat dau phan header --------------------*/
-.container {
-    max-width: 960px;
-    margin   : 0 auto;
 
-}
 
 nav {
     display        : flex;
@@ -70,8 +68,6 @@ nav {
 
 /* -------------------- ket thuc phan header --------------------*/
 
-/*-------------------- bat dau phan body --------------------*/
-
 body {
     background-image   : url(../images/index-bg-dai.png);
     background-repeat  : no-repeat;
@@ -81,42 +77,52 @@ body {
     margin             : 0 auto;
 }
 
-h1, p {
+.container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.rectangle {
+    width: 700px; /* Chiều rộng của hình chữ nhật */
+    height: 80px; /* Chiều cao của hình chữ nhật */
+    background-color: #322E63; /* Màu nền của hình chữ nhật */
+    border-radius: 20px; /* Tạo hình dạng không góc */
+    position: relative; /* Đảm bảo phần tử con được định vị tương đối đối với phần tử cha */
     text-align: center;
 }
 
-.container1 {
-    display: flex;
-    align-items: center;
+.text {
+    position: absolute; /* Định vị tuyệt đối cho chữ */
+    font-weight: bold;
+    font-size: 30px;
+    top: 50%; /* Đẩy chữ lên giữa theo chiều dọc */
+    left: 50%; /* Đẩy chữ ra giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Dịch chữ đi giữa cả chiều ngang và chiều dọc */
+    color: #fff; /* Màu chữ */
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.container1 img {
-    width: 300px; /* Độ rộng của ảnh */
-    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
-    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
 }
 
-.container1 .content1 {
-    margin-left: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-.container2 {
-    display: flex;
-    align-items: center;
+.image-container img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+    border-radius: 40px;
+    height: auto;
 }
-
-.comtainer2 .content2 {
-    flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
-}
-
-.container2 img {
-    width: 300px; /* Độ rộng của ảnh */
-    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
-    margin-left: 20px; /* Khoảng cách giữa văn bản và hình ảnh */
-}
-
-
-
 
 
 /*-------------------- ket thuc phan body --------------------*/
