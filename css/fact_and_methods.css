@@ -150,7 +150,11 @@ body {
     border-radius: 100px; /* Độ cong của góc hình chữ nhật */
     overflow: hidden; /* Loại bỏ các phần của hình ảnh vượt ra ngoài phần bo tròn */
     width: 1030px; /* Chiều rộng mong muốn của khung hình chữ nhật */
-    height:390px; /* Chiều cao mong muốn của khung hình chữ nhật */
+    height:430px; /* Chiều cao mong muốn của khung hình chữ nhật */
+}
+
+.image-container2 img{
+    opacity: 0.5;
 }
 
 .mota2{
