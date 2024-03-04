@@ -85,21 +85,36 @@ h1, p {
     text-align: center;
 }
 
-.container {
+.container1 {
     display: flex;
     align-items: center;
 }
 
-.container img {
+.container1 img {
     width: 300px; /* Độ rộng của ảnh */
     height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
     margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
-.container p {
-    display: inline-block; /* Hiển thị văn bản như một phần tử inline-block */
-    vertical-align: middle; /* Canh giữa văn bản theo chiều dọc */
+.container1 .content1 {
+    margin-left: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
 }
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.comtainer2 .content2 {
+    flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
+}
+
+.container2 img {
+    width: 300px; /* Độ rộng của ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-left: 20px; /* Khoảng cách giữa văn bản và hình ảnh */
+}
+
 
 
 

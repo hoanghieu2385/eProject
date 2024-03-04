@@ -92,9 +92,18 @@ body {
     clear: both;
     font-size: larger;
 }
+.desc1{
+    max-width: 550px;
+    min-width: 500px;
+    padding-left: 60px;
+}
+.about p{
+    font-size: smaller;
+}
 .about img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 430px;
+    margin: 50px;
 }
 
 .image {
