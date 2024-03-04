@@ -104,7 +104,7 @@ body {
     border-radius: 85px; /* Độ cong của góc hình chữ nhật */
     overflow: hidden; /* Loại bỏ các phần của hình ảnh vượt ra ngoài phần bo tròn */
     width: 1030px; /* Chiều rộng mong muốn của khung hình chữ nhật */
-    height:230px; /* Chiều cao mong muốn của khung hình chữ nhật */
+    height:430px; /* Chiều cao mong muốn của khung hình chữ nhật */
 }
 
 .image-text1 {
