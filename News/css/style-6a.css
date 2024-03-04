@@ -103,6 +103,7 @@ body {
     text-align: center;
     white-space: nowrap;
     font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
 }
 
 h2 {
