@@ -79,7 +79,7 @@ body {
 }
 
 h1, p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container1 {
@@ -93,16 +93,12 @@ h1, p {
     margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
-.container1 .content1 {
-    margin-left: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
-}
-
 .container2 {
     display: flex;
     align-items: center;
 }
 
-.comtainer2 .content2 {
+.container2 .content2 {
     flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
 }
 
@@ -112,9 +108,15 @@ h1, p {
     margin-left: 20px; /* Khoảng cách giữa văn bản và hình ảnh */
 }
 
+#links {
+    color: rgb(234, 234, 51);
+    text-decoration: none; /* Xóa gạch chân của liên kết */
+}
 
 
-
+/* #links span {
+    color: yellow;
+} */
 
 /*-------------------- ket thuc phan body --------------------*/
 
