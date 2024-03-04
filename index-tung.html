@@ -1,136 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="https://kit.fontawesome.com/f955b13853.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rain Water Harvesting</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/f955b13853.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+
 <body>
 
-    <style>
+  <style>
+    body {
+      background: #1f1f1f;
+    }
 
-        body {
-            background: #1f1f1f;
-        }
-        
-        [class*="col"] {
-            padding: 1rem;
-            border: 2px;
-            color: #fff;
-        }
+    [class*="col"] {
+      padding: 1rem;
+      border: 2px;
+      color: #fff;
+    }
 
-        ul#menu {
-            text-align: center;
-        }
+    /* ------------------ Hieu CSS cho header ------------------- */
 
-        ul#menu li {
-            display: inline;
-            padding: 15px;
-            max-width: 50px;
-        }
+    /* nav {
+      display: flex;
+      justify-content: space-between;
+      justify-items: center;
+    }
 
-        ul#menu li a {
-            text-decoration: none;
-            color: #fff;
-            font-size: large;
-        }
+    .logo img {
+      max-width: 200px;
+      height: auto;
+    }
 
-        .logo img {
-            max-width: 150px;
-            height: auto;
-        }
+    #main-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
 
-        .big-banner {
-            background-image: url(../cdn/media/window.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
+    #main-menu li {
+      position: relative;
+      font-size: large;
+    }
 
-        #intro {
-            background-color: transparent;
-            border: none;
-        }
+    #main-menu li a {
+      color: #3d2719 ;
+      display: block;
+      padding: 18px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+    #main-menu ul.sub-menu {
+      position: absolute;
+      background-color: transparent;
+      padding: 5px 0;
+      list-style: none;
+      width: 130px;
+      display: none;
+    }
 
-        .centered-card-body {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+    #main-menu li:hover ul.sub-menu {
+      display: block;
+    }
 
-        #text-1 {
-            background-color: transparent;
-            border: none;
-        }
+    #main-menu ul.sub-menu a {
+      padding: 8px 15px;
+      border-bottom: 1px solid rgb(63, 63, 63);
+    }
 
-        #image-in-content {
-            max-height: 640px;
-            width: 420px;
-        }
+    #main-menu ul.sub-menu a:hover {
+      background-color: rgb(63, 63, 63);
+    }
 
-        #yellow-text {
-            color: #FBD784;
-            padding-bottom: 13px;
-        }
+    #main-menu ul.sub-menu li:last-child a {
+      border: none;
+    } */
 
-        #links {
-            text-decoration: none;
-            color: #FBD784;
-        }
+    /* ------------ Tung CSS cho ID Header -------------- */
 
-        #links-footer {
-            text-decoration: none;
-            color:beige;
-        }
+    /* ul#menu {
+      text-align: center;
+    }
 
-        #footer {
-            padding-top: 100px;
-        }
+    ul#menu li {
+      display: inline;
+      padding: 15px;
+      max-width: 50px;
+    }
 
-        #footer-card {
-            background-color: transparent;
-            border: none;
-            color: white;
-        }
+    ul#menu li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: large;
+    } */
 
-        #footer-col-1 {
-            padding: 0 1rem;
-        }
+    .logo img {
+      max-width: 150px;
+      height: auto;
+    }
 
-        #footer-col-2 {
-            text-align: center;
-            padding: 0 1rem;
-        }
+    .big-banner {
+      background-image: url(../eProject/media/window.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
 
-        #footer-col-3 {
-            padding: 0 1rem;
-        }
+    #intro {
+      background-color: transparent;
+      border: none;
+    }
 
-        #social {
-          text-decoration: none;
-          color: #fff;
-        }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-        
+    .centered-card-body {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-    </style>
+    #text-1 {
+      background-color: transparent;
+      border: none;
+    }
 
-    <div class="big-banner">
+    #image-in-content {
+      max-height: 640px;
+      width: 420px;
+    }
 
-      <div class="container-fluid" id="header">
+    #yellow-text {
+      color: #FBD784;
+      padding-bottom: 13px;
+    }
+
+    #links {
+      text-decoration: none;
+      color: #FBD784;
+    }
+
+    #links-footer {
+      text-decoration: none;
+      color: beige;
+    }
+
+    #footer {
+      padding-top: 100px;
+    }
+
+    #footer-card {
+      background-color: transparent;
+      border: none;
+      color: white;
+    }
+
+    #footer-col-1 {
+      padding: 0 1rem;
+    }
+
+    #footer-col-2 {
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    #footer-col-3 {
+      padding: 0 1rem;
+    }
+
+    #social {
+      text-decoration: none;
+      color: #fff;
+    }
+  </style>
+
+  <div class="big-banner">
+
+    <div class="w3-bar">
+
+      <a href="index.html" class="logo">
+        <img src="./images/Header/Logo-page-co-chu.png" alt="Rainwater Harvesting">
+      </a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">Learn</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Residential</a>
+          <a href="#" class="w3-bar-item w3-button">Commercial</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">News</a>
+      <a href="#" class="w3-bar-item w3-button">About Us</a>
+
+    </div>
+
+    <!-- <div id="globalnav-content">
+      <div id="header">
+        <nav class="container-header">
+          <a href="index.html" class="logo">
+            <img src="./images/Header/Logo-page-co-chu.png" alt="Rainwater Harvesting">
+          </a>
+          <ul id="main-menu">
+            <li>
+              <a href="#">Learn</a>
+              <ul class="sub-menu">
+                <li><a href="ResidentalArea.html">Residential</a></li>
+                <li><a href="commercial.html">Commercial</a></li>
+              </ul>
+            </li>
+            <li><a href="./News/6.News.html">News</a></li>
+            <li><a href="./about-us.html">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div> -->
+
+    <!-- <div class="container-fluid" id="header">
         <div class="row" id="navbar">
-            <div class="col-md-9"><a href="index-project.html" class="logo"><img src="../cdn/media/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
+            <div class="col-md-9"><a href="index-project.html" class="logo"><img src="../eProject/media/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
             <div class="col-md-3">
                 <ul id="menu">
                     <li><a href="#">Learn</a></li>
@@ -139,193 +238,201 @@
                 </ul>
             </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="container-fluid my-5">
-        <div class="card text-center" id="intro" style="height: 45rem;">
-          <div class="row">
-            <div class="col centered">
-              <h5 id="yellow-text">A GUIDE ABOUT</h5>
-              <h1>Rain Water Harvesting</h1>
-              <h6>scroll down <span><i class="fa-solid fa-angles-down"></i></i></span></h6>
-            </div>
+    <div class="container-fluid my-5">
+      <div class="card text-center" id="intro" style="height: 45rem;">
+        <div class="row">
+          <div class="col centered">
+            <h5 id="yellow-text">A GUIDE ABOUT</h5>
+            <h1>Rain Water Harvesting</h1>
+            <h6>scroll down <span><i class="fa-solid fa-angles-down"></i></i></span></h6>
           </div>
         </div>
       </div>
-
     </div>
 
-    <div id="main-content">
+  </div>
 
-      <div class="container my-5">
-        <div class="card mb-3" style="width: auto;" id="text-1">
-            <div class="row g-0">
-              <div class="col-md-7">
-                <div class="card-body centered-card-body">
-                  <h6 id="yellow-text">Let's Begin With</h6>
-                  <h3 class="card-title">What is Rain Water Harvesting?</h3>
-                  <p class="card-text">Rainwater harvesting is a sustainable practice that involves 
-                    collecting and storing rainwater for later use. This method utilizes gutters and 
-                    pipes to direct rainfall from rooftops or catchment areas into storage tanks. 
-                    The harvested water can serve domestic, irrigation, or industrial needs, providing 
-                    a supplementary and eco-friendly water source. This practice reduces reliance on 
-                    conventional water sources, minimizes runoff, and promotes water conservation at 
-                    various scales, from individual households to larger urban and industrial settings.</p>
-                  <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../cdn/media/roof.jpg" class="img-fluid rounded-end" alt="roof" id="image-in-content">
-              </div>
+  <div id="main-content">
+
+    <div class="container my-5">
+      <div class="card mb-3" style="width: auto;" id="text-1">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body centered-card-body">
+              <h6 id="yellow-text">Let's Begin With</h6>
+              <h3 class="card-title">What is Rain Water Harvesting?</h3>
+              <p class="card-text">Rainwater harvesting is a sustainable practice that involves
+                collecting and storing rainwater for later use. This method utilizes gutters and
+                pipes to direct rainfall from rooftops or catchment areas into storage tanks.
+                The harvested water can serve domestic, irrigation, or industrial needs, providing
+                a supplementary and eco-friendly water source. This practice reduces reliance on
+                conventional water sources, minimizes runoff, and promotes water conservation at
+                various scales, from individual households to larger urban and industrial settings.</p>
+              <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
             </div>
+          </div>
+          <div class="col-md-5">
+            <img src="../eProject/media/roof.jpg" class="img-fluid rounded-end" alt="roof" id="image-in-content">
+          </div>
         </div>
       </div>
-  
-      <div class="container my-5">
-          <div class="card mb-3" style="width: auto;" id="text-1">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <img src="../cdn/media/city.jpg" class="img-fluid rounded-end" alt="city" id="image-in-content">
-                </div>
-                <div class="col-md-7">
-                  <div class="card-body centered-card-body">
-                    <h6 id="yellow-text">Next, Figure Out</h6>
-                    <h3 class="card-title">What area do you reside in?</h3>
-                    <p class="card-text">In residential and commercial areas, rainwater harvesting is 
-                      pivotal for sustainable water use. By capturing rainwater from rooftops and surfaces, 
-                      this practice offers a reliable on-site water source. In residential settings, it 
-                      ensures water availability during dry spells, reduces reliance on municipal water, 
-                      and supports eco-friendly practices. In commercial areas, rainwater harvesting can 
-                      contribute to green building initiatives, decrease water costs, and enhance overall 
-                      environmental sustainability. Embracing this approach not only benefits individual 
-                      households and businesses but also promotes responsible water management in urban 
-                      environments.</p>
-                    <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
-                  </div>
-                </div>
-              </div>
-          </div>
-      </div>
-  
-      <div class="container my-5">
-        <div class="card mb-3" style="width: auto;" id="text-1">
-            <div class="row g-0">
-              <div class="col-md-7">
-                <div class="card-body centered-card-body">
-                  <h6 id="yellow-text">Did You Know These</h6>
-                  <h3 class="card-title">Facts about harvesting Rain</h3>
-                  <p class="card-text">
-                    Embracing rainwater harvesting is not just a practice; it's a solution with 
-                    multifaceted benefits. From providing a sustainable water source to minimizing 
-                    environmental impact and enhancing community resilience, this method offers a 
-                    cost-efficient and versatile approach applicable in both residential and commercial 
-                    settings. In the following facts, we explore the key aspects that underscore the 
-                    importance of harvesting rain for a more sustainable water future.</p>
-                  <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../cdn/media/hand.jpg" class="img-fluid rounded-end" alt="hand" id="image-in-content">
-              </div>
-            </div>
-        </div>
-      </div>
-  
-      <div class="container my-5">
-          <div class="card mb-3" style="width: auto;" id="text-1">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <img src="../cdn/media/idea.jpg" class="img-fluid rounded-end" alt="idea" id="image-in-content">
-                </div>
-                <div class="col-md-7">
-                  <div class="card-body centered-card-body">
-                    <h6 id="yellow-text">The Latest Of</h6>
-                    <h3 class="card-title">Innovations and improvements in Rain Harvesting</h3>
-                    <p class="card-text">As we navigate towards a more sustainable future, innovations 
-                      and improvements in rainwater harvesting have played a pivotal role. From technological 
-                      advancements to design enhancements, these developments are reshaping how we harness 
-                      and utilize rainwater. In the following exploration, we delve into the latest innovations 
-                      that are revolutionizing rainwater harvesting, offering more efficient, scalable, 
-                      and eco-friendly solutions for water conservation in diverse environments.</p>
-                    <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
-                  </div>
-                </div>
-              </div>
-          </div>
-      </div>
-
     </div>
 
-    <div class="container-fluid" id="footer">
-
-      <div class="row row-cols-3 row-cols-md-3">
-
-        <div class="col" id="footer-col-1">
-          <div class="card" id="footer-card">
-            <div class="card-body">
-              <h5 class="card-title">Rain Water Harvesting <span><i class="fa-solid fa-droplet"></i></span></h5>
-              <div>
-                <p>
-                  Key Benefits:<br/>
-                  - Conservation of water sources<br/>
-                  - Reduction of runoff and soil erosion<br/>
-                  - Cost-effective and sustainable supply<br/>
-                </p>
-                
-                <p>
-                  Start your rainwater harvesting journey today and contribute to a more sustainable future!
-                </p>
-              </div>
+    <div class="container my-5">
+      <div class="card mb-3" style="width: auto;" id="text-1">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="../eProject/media/city.jpg" class="img-fluid rounded-end" alt="city" id="image-in-content">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body centered-card-body">
+              <h6 id="yellow-text">Next, Figure Out</h6>
+              <h3 class="card-title">What area do you reside in?</h3>
+              <p class="card-text">In residential and commercial areas, rainwater harvesting is
+                pivotal for sustainable water use. By capturing rainwater from rooftops and surfaces,
+                this practice offers a reliable on-site water source. In residential settings, it
+                ensures water availability during dry spells, reduces reliance on municipal water,
+                and supports eco-friendly practices. In commercial areas, rainwater harvesting can
+                contribute to green building initiatives, decrease water costs, and enhance overall
+                environmental sustainability. Embracing this approach not only benefits individual
+                households and businesses but also promotes responsible water management in urban
+                environments.</p>
+              <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
             </div>
           </div>
-        </div> 
+        </div>
+      </div>
+    </div>
 
-        <div class="col" id="footer-col-2">
-          <div class="card" id="footer-card">
-            <div class="card-body">
-              <h5 class="card-title">More on the Blog</h5>
+    <div class="container my-5">
+      <div class="card mb-3" style="width: auto;" id="text-1">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body centered-card-body">
+              <h6 id="yellow-text">Did You Know These</h6>
+              <h3 class="card-title">Facts about harvesting Rain</h3>
               <p class="card-text">
-                <p><a href="#" id="links-footer">Learn</a></p>
-                <p><a href="#" id="links-footer">News</a></p>
-                <p><a href="#" id="links-footer">About Us</a></p>
+                Embracing rainwater harvesting is not just a practice; it's a solution with
+                multifaceted benefits. From providing a sustainable water source to minimizing
+                environmental impact and enhancing community resilience, this method offers a
+                cost-efficient and versatile approach applicable in both residential and commercial
+                settings. In the following facts, we explore the key aspects that underscore the
+                importance of harvesting rain for a more sustainable water future.</p>
+              <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="../eProject/media/hand.jpg" class="img-fluid rounded-end" alt="hand" id="image-in-content">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="card mb-3" style="width: auto;" id="text-1">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="../eProject/media/idea.jpg" class="img-fluid rounded-end" alt="idea" id="image-in-content">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body centered-card-body">
+              <h6 id="yellow-text">The Latest Of</h6>
+              <h3 class="card-title">Innovations and improvements in Rain Harvesting</h3>
+              <p class="card-text">As we navigate towards a more sustainable future, innovations
+                and improvements in rainwater harvesting have played a pivotal role. From technological
+                advancements to design enhancements, these developments are reshaping how we harness
+                and utilize rainwater. In the following exploration, we delve into the latest innovations
+                that are revolutionizing rainwater harvesting, offering more efficient, scalable,
+                and eco-friendly solutions for water conservation in diverse environments.</p>
+              <p><a href="#" id="links">read more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid" id="footer">
+
+    <div class="row row-cols-3 row-cols-md-3">
+
+      <div class="col" id="footer-col-1">
+        <div class="card" id="footer-card">
+          <div class="card-body">
+            <h5 class="card-title">Rain Water Harvesting <span><i class="fa-solid fa-droplet"></i></span></h5>
+            <div>
+              <p>
+                Key Benefits:<br />
+                - Conservation of water sources<br />
+                - Reduction of runoff and soil erosion<br />
+                - Cost-effective and sustainable supply<br />
+              </p>
+
+              <p>
+                Start your rainwater harvesting journey today and contribute to a more sustainable future!
               </p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col" id="footer-col-3">
-          <div class="card" id="footer-card">
-            <div class="card-body">
-              <h5 class="card-title">Contact Irrigation Vietnam</h5>
-              <p class="card-text">
-                <p><span><i class="fa-solid fa-phone"></i></span>   Hotline: <a href="#" id="links-footer">(+84) 911659131</a></p>
-                <p><span><i class="fa-solid fa-envelope"></i></span>   Email: <a href="#" id="links-footer">irrigation.vn@gmail.com</a></p>
-                <p><span><i class="fa-solid fa-map-location-dot"></i>   Address: 8, Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm, Hà Nội</span></p>
-                <p>
-                  <span><a href="#" id="social"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></span>
-                  <span><a href="#" id="social"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></span>
-                  <span><a href="#" id="social"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></a></span>
-                  <span><a href="#" id="social"><i class="fa-brands fa-square-youtube fa-2xl"></i></a></span>
-                </p>
-              </p>
-            </div>
+      <div class="col" id="footer-col-2">
+        <div class="card" id="footer-card">
+          <div class="card-body">
+            <h5 class="card-title">More on the Blog</h5>
+            <p class="card-text">
+            <p><a href="#" id="links-footer">Learn</a></p>
+            <p><a href="#" id="links-footer">News</a></p>
+            <p><a href="#" id="links-footer">About Us</a></p>
+            </p>
           </div>
         </div>
+      </div>
 
+      <div class="col" id="footer-col-3">
+        <div class="card" id="footer-card">
+          <div class="card-body">
+            <h5 class="card-title">Contact Irrigation Vietnam</h5>
+            <p class="card-text">
+            <p><span><i class="fa-solid fa-phone"></i></span> Hotline: <a href="#" id="links-footer">(+84) 911659131</a>
+            </p>
+            <p><span><i class="fa-solid fa-envelope"></i></span> Email: <a href="#"
+                id="links-footer">irrigation.vn@gmail.com</a></p>
+            <p><span><i class="fa-solid fa-map-location-dot"></i> Address: 8, Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm,
+                Hà Nội</span></p>
+            <p>
+              <span><a href="#" id="social"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></span>
+              <span><a href="#" id="social"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></span>
+              <span><a href="#" id="social"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></a></span>
+              <span><a href="#" id="social"><i class="fa-brands fa-square-youtube fa-2xl"></i></a></span>
+            </p>
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
 
-    <footer class="text-center text-white">
-      <div class="text-center p-3">
-        © 2024 Copyright:
-        <a class="text-white" href="#">Irrigation.vn.com</a>
-      </div>
-    </footer>
+  </div>
+
+  <footer class="text-center text-white">
+    <div class="text-center p-3">
+      © 2024 Copyright:
+      <a class="text-white" href="#">Irrigation.vn.com</a>
+    </div>
+  </footer>
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
