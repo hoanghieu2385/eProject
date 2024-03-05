@@ -2,8 +2,8 @@
 
 * {
     font-family: Roboto;
-    color      : white;
-    background-color: black;
+    color      : rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -84,39 +84,36 @@ body {
     width: 70%; /* Điều chỉnh giá trị này tùy thuộc vào nhu cầu */
 }
 
-.container1 {
-    display: flex;
-    align-items: center;
-}
-
-.container1 img {
-    width: 300px; /* Độ rộng của ảnh */
-    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
-    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
-}
-
-.container1 .content1 {
-    flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
-}
-
+.container1,
 .container2 {
     display: flex;
     align-items: center;
 }
 
+.container1 img,
+.container2 img {
+    width: 300px; /* Độ rộng của ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.container1 .content1,
 .container2 .content2 {
     flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
 }
 
 .container2 img {
-    width: 300px; /* Độ rộng của ảnh */
-    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-right: 0; /* Thay đổi khoảng cách giữa hình ảnh và văn bản trong .container2 */
     margin-left: 20px; /* Khoảng cách giữa văn bản và hình ảnh */
 }
 
 #links {
     color: rgb(234, 234, 51);
     text-decoration: none; /* Xóa gạch chân của liên kết */
+}
+
+#links span {
+    margin-left: 5px; /* Khoảng cách giữa văn bản và biểu tượng */
 }
 
 .pagination-container {
