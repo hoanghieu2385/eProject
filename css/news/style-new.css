@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: Roboto;
+    color      : rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+}
+
+/* -------------------- bat dau phan header --------------------*/
+
+
+nav {
+    display        : flex;
+    justify-content: space-between;
+    justify-items  : center;
+}
+
+.logo img {
+    max-width: 220px;
+    height   : auto;
+}
+
+#main-menu {
+    display   : flex;
+    list-style: none;
+    margin    : 0;
+    padding   : 0;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color          : white;
+    display        : block;
+    padding        : 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position        : absolute;
+    background-color: rgb(38, 34, 34);
+    padding         : 5px 0;
+    list-style      : none;
+    width           : 130px;
+    display         : none;
+}
+
+#main-menu li:hover ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a {
+    padding      : 8px 15px;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu a:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: none;
+}
+
+/* -------------------- ket thuc phan header --------------------*/
+
+/*-------------------- bat dau phan body --------------------*/
+
+body {
+    background-image   : url(../images/index-bg-dai.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    max-width          : 1050px;
+    margin             : 0 auto;
+}
+
+.centered-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%; /* Điều chỉnh giá trị này tùy thuộc vào nhu cầu */
+}
+
+.container1,
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.container1 img,
+.container2 img {
+    width: 300px; /* Độ rộng của ảnh */
+    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.container1 .content1,
+.container2 .content2 {
+    flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
+}
+
+.container2 img {
+    margin-right: 0; /* Thay đổi khoảng cách giữa hình ảnh và văn bản trong .container2 */
+    margin-left: 20px; /* Khoảng cách giữa văn bản và hình ảnh */
+}
+
+#links {
+    color: rgb(234, 234, 51);
+    text-decoration: none; /* Xóa gạch chân của liên kết */
+}
+
+#links span {
+    margin-left: 5px; /* Khoảng cách giữa văn bản và biểu tượng */
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 20px; /* Định dạng hình bầu dục */
+    padding: 5px;
+}
+
+.pagination-item {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block; /* Để có thể áp dụng kích thước cho nút */
+}
+
+.pagination-item span {
+    display: inline-block;
+    width: 20px; /* Độ rộng của số */
+    height: 20px; /* Chiều cao của số */
+    border-radius: 50%; /* Định dạng hình tròn */
+    background-color: transparent; /* Nền trong suốt */
+    line-height: 20px; /* Cân chỉnh dọc cho nội dung (số) */
+    text-align: center; /* Cân chỉnh ngang cho nội dung (số) */
+}
+
+.pagination-item span::after {
+    content: '';
+    position: absolute;
+    width: 18px; /* Kích thước của hình tròn */
+    height: 18px; /* Kích thước của hình tròn */
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    top: calc(50% - 10px); /* Canh chỉnh để hiển thị giữa theo chiều dọc */
+    left: calc(50% - 10px); /* Canh chỉnh để hiển thị giữa theo chiều ngang */
+    opacity: 0; /* Mặc định ẩn đi */
+    transition: opacity 0.3s; /* Hiệu ứng hiển thị */
+}
+
+.pagination-item span:hover::after {
+    opacity: 1; /* Hiển thị khi con trỏ chuột di chuyển lên */
+}
+
+
+
+
+/*-------------------- ket thuc phan body --------------------*/
+
+
+/*-------------------- bat phan footer --------------------*/
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear  : both;
+}
+
+.benefits{
+    padding-left: 4%;
+}
+.loiich{
+    padding-left: 7%;
+
+}
+
+
+.copyright{
+    justify-content: space-between;
+    text-align: center;
+}
+/*-------------------- ket thuc phan footer --------------------*/
