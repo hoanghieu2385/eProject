@@ -3,8 +3,7 @@
 * {
     font-family: Roboto;
     color      : rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-
+    background-color: #1f1f1f;
 }
 
 /* -------------------- bat dau phan header --------------------*/
@@ -80,8 +79,6 @@ body {
 
 .centered-content {
     text-align: center;
-    margin: 0 auto;
-    width: 70%; /* Điều chỉnh giá trị này tùy thuộc vào nhu cầu */
 }
 
 .container1,
