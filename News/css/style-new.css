@@ -78,8 +78,10 @@ body {
     margin             : 0 auto;
 }
 
-h1, p {
-    /* text-align: center; */
+.centered-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%; /* Điều chỉnh giá trị này tùy thuộc vào nhu cầu */
 }
 
 .container1 {
@@ -91,6 +93,10 @@ h1, p {
     width: 300px; /* Độ rộng của ảnh */
     height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
     margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.container1 .content1 {
+    flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
 }
 
 .container2 {
@@ -113,10 +119,55 @@ h1, p {
     text-decoration: none; /* Xóa gạch chân của liên kết */
 }
 
+.pagination-container {
+    text-align: center;
+}
 
-/* #links span {
-    color: yellow;
-} */
+.pagination {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 20px; /* Định dạng hình bầu dục */
+    padding: 5px;
+}
+
+.pagination-item {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block; /* Để có thể áp dụng kích thước cho nút */
+}
+
+.pagination-item span {
+    display: inline-block;
+    width: 20px; /* Độ rộng của số */
+    height: 20px; /* Chiều cao của số */
+    border-radius: 50%; /* Định dạng hình tròn */
+    background-color: transparent; /* Nền trong suốt */
+    line-height: 20px; /* Cân chỉnh dọc cho nội dung (số) */
+    text-align: center; /* Cân chỉnh ngang cho nội dung (số) */
+}
+
+.pagination-item span::after {
+    content: '';
+    position: absolute;
+    width: 18px; /* Kích thước của hình tròn */
+    height: 18px; /* Kích thước của hình tròn */
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    top: calc(50% - 10px); /* Canh chỉnh để hiển thị giữa theo chiều dọc */
+    left: calc(50% - 10px); /* Canh chỉnh để hiển thị giữa theo chiều ngang */
+    opacity: 0; /* Mặc định ẩn đi */
+    transition: opacity 0.3s; /* Hiệu ứng hiển thị */
+}
+
+.pagination-item span:hover::after {
+    opacity: 1; /* Hiển thị khi con trỏ chuột di chuyển lên */
+}
+
+
+
 
 /*-------------------- ket thuc phan body --------------------*/
 
