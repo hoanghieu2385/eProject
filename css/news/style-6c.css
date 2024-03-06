@@ -106,14 +106,8 @@ body {
     background-color: transparent;
 }
 
-h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 27px;
-}
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+.paragraph p {
+    line-height: 1.5; /* Đặt giá trị line-height theo ý muốn của bạn */
 }
 
 .image-container img{

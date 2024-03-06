@@ -3,7 +3,7 @@
 * {
     font-family: Roboto;
     color      : white;
-    background-color: black;
+    background-color: #1f1f1f;
 
 
 }
@@ -81,6 +81,7 @@ body {
     display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 50px;
 }
 
 .rectangle {
@@ -106,14 +107,13 @@ body {
     background-color: transparent;
 }
 
-h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 27px;
+.paragraph1 p,
+.paragraph2 p {
+    line-height: 1.5; /* Đặt giá trị line-height theo ý muốn của bạn */
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+.paragraph2 {
+    padding-bottom: 150px;
 }
 
 .image-container img{
