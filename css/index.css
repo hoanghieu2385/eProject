@@ -71,6 +71,7 @@ body {
 
   ul#menu {
     text-align: center;
+    margin: 8px 0px 8px;
   }
 
   ul#menu li {
@@ -90,11 +91,23 @@ body {
     height: auto;
   }
 
+  #header {
+    height: 10px;
+  }
+
   .big-banner {
     background-image: url(../images/index/window.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  #navbar {
+    background-color: #1f1f1f;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
 
   #intro {
