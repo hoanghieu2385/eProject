@@ -79,28 +79,28 @@ body {
 
 .container {
     display: flex;
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
 
 .rectangle {
-    width: 700px; /* Chiều rộng của hình chữ nhật */
-    height: 80px; /* Chiều cao của hình chữ nhật */
-    background-color: #322E63; /* Màu nền của hình chữ nhật */
-    border-radius: 20px; /* Tạo hình dạng không góc */
-    position: relative; /* Đảm bảo phần tử con được định vị tương đối đối với phần tử cha */
+    width: 700px;
+    height: 80px;
+    background-color: #322E63;
+    border-radius: 20px;
+    position: relative;
     text-align: center;
 }
 
 .text {
-    position: absolute; /* Định vị tuyệt đối cho chữ */
+    position: absolute;
     font-weight: bold;
     font-size: 30px;
-    top: 50%; /* Đẩy chữ lên giữa theo chiều dọc */
-    left: 50%; /* Đẩy chữ ra giữa theo chiều ngang */
-    transform: translate(-50%, -50%); /* Dịch chữ đi giữa cả chiều ngang và chiều dọc */
-    color: #fff; /* Màu chữ */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
     text-align: center;
     white-space: nowrap;
     font-family: 'Times New Roman', Times, serif;
@@ -109,7 +109,7 @@ body {
 
 .paragraph1 p,
 .paragraph2 p {
-    line-height: 1.5; /* Đặt giá trị line-height theo ý muốn của bạn */
+    line-height: 1.5;
 }
 
 .paragraph2 {
