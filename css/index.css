@@ -69,7 +69,7 @@ body {
 
   /* ------------ Tung CSS cho ID Header -------------- */
 
-  /* ul#menu {
+  ul#menu {
     text-align: center;
   }
 
@@ -83,7 +83,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: large;
-  } */
+  }
 
   .logo img {
     max-width: 150px;
@@ -91,7 +91,7 @@ body {
   }
 
   .big-banner {
-    background-image: url(../eProject/media/window.jpg);
+    background-image: url(../images/index/window.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -104,7 +104,7 @@ body {
 
   .centered {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -116,9 +116,21 @@ body {
     transform: translate(-50%, -50%);
   }
 
+  #card-title {
+    font-family: 'Chronicle Display', sans-serif;
+  }
+
+  #card-text {
+    font-family: 'Gilroy-Bold', sans-serif;
+  }
+
   #text-1 {
     background-color: transparent;
     border: none;
+  }
+
+  p.card-text {
+    font-size: 14px;
   }
 
   #image-in-content {
