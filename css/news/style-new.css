@@ -79,24 +79,34 @@ body {
 
 .centered-content {
     text-align: center;
+    padding-top: 50px;
 }
 
 .container1,
-.container2 {
+.container2,
+.container3 {
+    padding: 30px;
     display: flex;
     align-items: center;
 }
 
 .container1 img,
-.container2 img {
+.container2 img,
+.container3 img {
     width: 300px; /* Độ rộng của ảnh */
     height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
     margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
 .container1 .content1,
-.container2 .content2 {
+.container2 .content2,
+.container3 .content3 {
     flex: 1; /* Văn bản sẽ chiếm phần còn lại của hàng */
+    line-height: 1.5;
+}
+
+.container3 {
+    padding-bottom: 150px;
 }
 
 .container2 img {
@@ -186,9 +196,17 @@ body {
 
 }
 
-
 .copyright{
     justify-content: space-between;
     text-align: center;
+}
+
+footer {
+    background-color: #828282;
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    max-width          : 1200px;
+    margin             : 0 auto;
 }
 /*-------------------- ket thuc phan footer --------------------*/
