@@ -3,7 +3,7 @@
 * {
     font-family: Roboto;
     color      : white;
-    background-color: black;
+    background-color: #1f1f1f;
 
 
 }
@@ -78,6 +78,7 @@ body {
 }
 
 .container {
+    padding: 50px;
     display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc */
@@ -119,6 +120,9 @@ body {
     height: auto;
 }
 
+.image-container {
+    padding-bottom: 150px;
+}
 
 /*-------------------- ket thuc phan body --------------------*/
 
