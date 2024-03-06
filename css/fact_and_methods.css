@@ -90,7 +90,7 @@ body {
 }
 
 .image-text {
-    background: url('img/R.jpg') no-repeat;
+    background: url('../images/facts-and-methods/R.jpg') no-repeat;
     background-size: cover;
     -webkit-background-clip: text;
     color: transparent;
