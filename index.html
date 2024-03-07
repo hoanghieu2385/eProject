@@ -19,11 +19,12 @@
 
     <div class="container-fluid" id="header">
       <div class="row" id="navbar">
-          <div class="col-md-8" style="padding: 5px 10px;"><a href="index.html" class="logo"><img src="./images/index/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
-          <div class="col-md-4" style="padding: 0%;">
+          <div class="col-md-7" style="padding: 5px 10px;"><a href="index.html" class="logo"><img src="./images/index/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
+          <div class="col-md-5" style="padding: 0%;">
               <ul id="menu">
                   <li><a href="residential.html">Residential</a></li>
                   <li><a href="commercial.html">Commercial</a></li>
+                  <li><a href="fact_and_methods.html">Facts</a></li>
                   <li><a href="./news/6.News.html">News</a></li>
                   <li><a href="about-us.html">Contact Us</a></li>
               </ul>
@@ -211,19 +212,36 @@
     </div>
   </footer>
 
-  <script id="header-script">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fa-solid fa-circle-chevron-up fa-2xl"></i></span></button>
+  
+  <script>
     var prevScrollpos = window.pageYOffset;
+    var mybutton = document.getElementById("myBtn");
+  
     window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
+      // Header hiding logic
+      var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
         document.getElementById("navbar").style.top = "-50px";
       }
       prevScrollpos = currentScrollPos;
+  
+      // Scroll to top button visibility logic
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+  
+    // Scroll to top button functionality
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
-    </script>
-
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
