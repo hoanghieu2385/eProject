@@ -218,8 +218,8 @@ iframe {
 
 
 
-/* -------------------- bat phan footer  --------------------*/
-footer{
+/* -------------------- bat phan footer Hieu  --------------------*/
+/* footer{
     min-width: 800px;
 }
 
@@ -266,6 +266,45 @@ a {
 
 .col-3{
     margin: 0 34px;
-}
+} */
 
-/* -------------------- ket thuc phan footer --------------------*/
+/* -------------------- ket thuc phan footer Hieu --------------------*/
+
+#links-footer {
+    text-decoration: none;
+    color: beige;
+  }
+
+  #footer {
+    padding-top: 100px;
+    min-width: 785px;
+  }
+
+  #footer-card {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  #footer-col-1 {
+    padding: 0 1rem;
+  }
+
+  #footer-col-2 {
+    text-align: center;
+    padding: 0 4rem;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  #footer-col-3 {
+    padding: 0 1rem 0 4rem;
+  }
+
+  #social {
+    text-decoration: none;
+    color: #fff;
+  }
