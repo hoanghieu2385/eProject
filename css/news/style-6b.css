@@ -107,13 +107,18 @@ body {
     background-color: transparent;
 }
 
+.paragraph h2 {
+  font-family: 'Chronicle Display', sans-serif;
+}
+
 .paragraph p {
     line-height: 1.5;
+    /* font-family: 'Gilroy-Bold', sans-serif; */
 }
 
 .image-container img{
     display: block;
-    margin: 0 auto;
+    margin: 38px auto;
     max-width: 100%;
     width: 800px;
     border-radius: 40px;
