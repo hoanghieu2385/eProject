@@ -121,6 +121,7 @@ body {
 
   #footer {
     padding-top: 100px;
+    min-width: 785px;
   }
 
   #footer-card {
