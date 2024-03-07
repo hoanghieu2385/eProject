@@ -9,11 +9,6 @@
 }
 
 /* -------------------- bat dau phan header --------------------*/
-.container {
-    max-width: 960px;
-    margin   : 0 auto;
-
-}
 
 nav {
     display        : flex;
@@ -77,7 +72,7 @@ nav {
 /*-------------------- bat dau phan body --------------------*/
 
 body {
-    background-color: rgb(31, 33, 34);
+    background-color: #1f1f1f;
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
