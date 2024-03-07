@@ -10,7 +10,7 @@ body {
 
   ul#menu {
     text-align: center;
-    margin: 8px 0px 8px;
+    margin: 15px 0px 15px;
   }
 
   ul#menu li {
@@ -22,7 +22,7 @@ body {
   ul#menu li a {
     text-decoration: none;
     color: #fff;
-    font-size: large;
+    font-size: medium;
   }
 
   ul#dropdown-menu {
@@ -40,7 +40,7 @@ body {
   }
 
   .logo img {
-    max-width: 150px;
+    max-width: 175px;
     height: auto;
   }
 
