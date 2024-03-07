@@ -77,48 +77,6 @@ body {
     margin             : 0 auto;
 }
 
-
-
-/* .contact-in {
-    display: flex;
-}
-
-
-form {
-    margin       : auto 15%;
-    margin-bottom: 15em;
-}
-
-form input {
-    margin-left     : 3%;
-    background-color: #ededed;
-    color           : white;
-    border-radius   : 8px;
-    height          : 30px;
-    color: black;
-
-}
-
-form textarea {
-    margin-left     : 3%;
-    background-color: #ededed;
-    border-radius   : 8px;
-    height          : 120px;
-    color: black;
-}
-
-form button {
-    margin-left            : 3%;
-    background-color       : #404c66;
-    color                  : white;
-    border                 : none;
-    padding                : 5px;
-    background-color: rgb(60, 107, 184); 
-    border-radius: 8px; 
-    margin-left: 5%;
-
-} */
-
 .contact {
     min-height: 60vh;
     padding   : 50px;
@@ -162,6 +120,7 @@ textarea {
     padding      : 12px;
     border-radius: 5%;
     border       : none;
+    color: black;
 }
 
 input:focus,
@@ -193,7 +152,7 @@ button:hover {
 }
 
 .contact-info i {
-    color: #295580
+    color: #408fde
 }
 
 ;
