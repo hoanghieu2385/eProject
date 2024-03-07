@@ -217,59 +217,6 @@ iframe {
 /* -------------------- ket thuc phan body --------------------*/
 
 
-
-/* -------------------- bat phan footer Hieu  --------------------*/
-/* footer{
-    min-width: 800px;
-}
-
-
-.column {
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear  : both;
-}
-
-.benefits {
-    padding-left: 4%;
-}
-
-.loiich {
-    padding-left: 7%;
-
-}
-
-ul li a {
-    list-style: none;
-    text-decoration: none;
-}
-
-ol li {
-    margin: 5px;
-}
-
-.copyright {
-    justify-content: space-between;
-    text-align     : center;
-}
-
-a {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.col-3{
-    margin: 0 34px;
-} */
-
-/* -------------------- ket thuc phan footer Hieu --------------------*/
-
 #links-footer {
     text-decoration: none;
     color: beige;
