@@ -68,7 +68,7 @@ nav {
 
 /*-------------------- bat dau phan body --------------------*/
 body {
-    background-image: url(../images/index-bg-dai.png);
+    background-color: #1f1f1f;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
