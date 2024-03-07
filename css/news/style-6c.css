@@ -113,11 +113,15 @@ body {
 
 .image-container img {
     display: block;
-    margin: 0 auto;
+    margin: 38 auto;
     max-width: 100%;
     width: 800px;
     border-radius: 40px;
     height: auto;
+}
+
+h2{
+  padding-top: 20px;
 }
 
 .image-container {

@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family: Roboto;
-    color      : rgb(255, 255, 255);
+    font-family     : Roboto;
+    color           : rgb(255, 255, 255);
     background-color: #1f1f1f;
 }
 
@@ -68,13 +68,14 @@ nav {
 
 /*-------------------- bat dau phan body --------------------*/
 body {
-    background-color: #1f1f1f;
-    background-repeat: no-repeat;
+    background-color   : #1f1f1f;
+    background-repeat  : no-repeat;
     background-position: center;
-    background-size: cover;
-    max-width: 1050px;
-    margin: 0 auto;
+    background-size    : cover;
+    max-width          : 1050px;
+    margin             : 0 auto;
 }
+
 
 .image-container {
     position: relative;
@@ -82,63 +83,63 @@ body {
 
 .image-container img {
     display: block;
-    width: 100%;
-    height: auto;
+    width  : 100%;
+    height : auto;
     opacity: 0.5;
 }
 
 .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
     background-color: transparent;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    z-index: 1;
+    color           : white;
+    padding         : 20px;
+    border-radius   : 5px;
+    text-align      : center;
+    z-index         : 1;
 }
 
 .overlay-text h1 {
-    font-size: 40px;
-    margin-bottom: 50px;
+    font-size       : 40px;
+    margin-bottom   : 50px;
     background-color: transparent;
-    white-space: nowrap;
+    white-space     : nowrap;
 }
 
 .overlay-text p {
-    font-size: 22px;
-    margin-bottom: 0;
-    line-height: 2;
+    font-size       : 22px;
+    margin-bottom   : 0;
+    line-height     : 2;
     background-color: transparent;
 }
 
 .centered-content {
-    text-align: center;
+    text-align : center;
     padding-top: 50px;
 }
 
 .container1,
 .container2,
 .container3 {
-    padding: 30px;
-    display: flex;
+    padding    : 30px;
+    display    : flex;
     align-items: center;
 }
 
 .container1 img,
 .container2 img,
 .container3 img {
-    width: 300px;
-    height: auto;
+    width       : 300px;
+    height      : auto;
     margin-right: 20px;
 }
 
 .container1 .content1,
 .container2 .content2,
 .container3 .content3 {
-    flex: 1;
+    flex       : 1;
     line-height: 1.5;
 }
 
@@ -148,11 +149,11 @@ body {
 
 .container2 img {
     margin-right: 0;
-    margin-left: 20px;
+    margin-left : 20px;
 }
 
 #links {
-    color: rgb(234, 234, 51);
+    color          : rgb(234, 234, 51);
     text-decoration: none;
 }
 
@@ -165,61 +166,61 @@ body {
 
 #links-footer {
     text-decoration: none;
-    color: beige;
-  }
+    color          : beige;
+}
 
-  #footer {
+#footer {
     padding-top: 100px;
-    min-width: 785px;
-  }
+    min-width  : 785px;
+}
 
-  #footer-card {
+#footer-card {
     background-color: transparent;
-    border: none;
-    color: white;
-  }
+    border          : none;
+    color           : white;
+}
 
-  #footer-col-1 {
+#footer-col-1 {
     padding: 0 1rem;
-  }
+}
 
-  #footer-col-2 {
+#footer-col-2 {
     text-align: center;
-    padding: 0 4rem;
-  }
+    padding   : 0 4rem;
+}
 
-  a {
+a {
     text-decoration: none;
-    list-style: none;
-  }
+    list-style     : none;
+}
 
-  #footer-col-3 {
+#footer-col-3 {
     padding: 0 1rem 0 4rem;
-  }
+}
 
-  #social {
+#social {
     text-decoration: none;
-    color: #fff;
-  }
+    color          : #fff;
+}
 
 
 
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
+#myBtn {
+    display         : none;
+    position        : fixed;
+    bottom          : 20px;
+    right           : 30px;
+    z-index         : 99;
+    font-size       : 18px;
+    border          : none;
+    outline         : none;
     background-color: #1f1f1f;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+    color           : white;
+    cursor          : pointer;
+    padding         : 15px;
+    border-radius   : 4px;
+}
+
+#myBtn:hover {
     background-color: #555;
-  }
+}
