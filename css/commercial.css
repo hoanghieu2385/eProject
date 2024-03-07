@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family: Roboto;
-    color      : white;
+    font-family : Roboto;
+    color       : white;
     word-spacing: 5%;
 
 
@@ -72,7 +72,7 @@ nav {
 /*-------------------- bat dau phan body --------------------*/
 
 body {
-    background-color: #1f1f1f;
+    background-color   : #1f1f1f;
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
@@ -80,60 +80,71 @@ body {
     margin             : 0 auto;
 }
 
-.about{
-    display: flex;
-    box-sizing: border-box;
-    background-color:rgba(87, 87, 80, 0.34);
-    border-radius: 2%;
-    padding: 30px;
-    clear: both;
-    font-size: larger;
+.tieude {
+    margin: 50px auto;
 }
-.about img{
-    width: 100%;
+
+.about {
+    display         : flex;
+    box-sizing      : border-box;
+    background-color: rgba(87, 87, 80, 0.34);
+    border-radius   : 2%;
+    padding         : 30px;
+    clear           : both;
+    font-size       : larger;
+}
+
+.about img {
+    width : 100%;
     height: auto;
 }
 
 .image {
-    width: 100%;
+    width    : 100%;
     clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
-.product-1{
-    display: flex;
-    margin-top: 2%;
-    
+.tieudesanpham {
+    margin: 50px auto;
 }
 
-.product-1 img{
-    width: 100%;
+
+.product-1 {
+    display      : flex;
+    margin-top   : 2%;
+    margin-bottom: 30px;
+}
+
+.product-1 img {
+    width : 100%;
     height: auto;
 }
 
 
-.product-2{
-    display: flex;
-    margin-top: 5%;
+.product-2 {
+    display      : flex;
+    margin-top   : 5%;
     margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
-.product-2 img{
-    width: 100%;
+.product-2 img {
+    width : 100%;
     height: auto;
 }
 
-.product-3{
-    display: flex;
+.product-3 {
+    display      : flex;
     margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
-.product-3 img{
-    width: 100%;
+.product-3 img {
+    width : 100%;
     height: auto;
 }
 
-.mota_benphai{
+.mota_benphai {
     margin-left: 5%;
 }
 
@@ -145,39 +156,39 @@ body {
 
 #links-footer {
     text-decoration: none;
-    color: beige;
-  }
+    color          : beige;
+}
 
-  #footer {
+#footer {
     padding-top: 100px;
-    min-width: 785px;
-  }
+    min-width  : 785px;
+}
 
-  #footer-card {
+#footer-card {
     background-color: transparent;
-    border: none;
-    color: white;
-  }
+    border          : none;
+    color           : white;
+}
 
-  #footer-col-1 {
+#footer-col-1 {
     padding: 0 1rem;
-  }
+}
 
-  #footer-col-2 {
+#footer-col-2 {
     text-align: center;
-    padding: 0 4rem;
-  }
+    padding   : 0 4rem;
+}
 
-  a {
+a {
     text-decoration: none;
-    list-style: none;
-  }
+    list-style     : none;
+}
 
-  #footer-col-3 {
+#footer-col-3 {
     padding: 0 1rem 0 4rem;
-  }
+}
 
-  #social {
+#social {
     text-decoration: none;
-    color: #fff;
-  }
+    color          : #fff;
+}
