@@ -153,32 +153,41 @@ body {
 /*-------------------- ket thuc phan body --------------------*/
 
 
+#links-footer {
+    text-decoration: none;
+    color: beige;
+  }
 
+  #footer {
+    padding-top: 100px;
+    min-width: 785px;
+  }
 
-/*-------------------- bat dau phan footer --------------------*/
-.column {
-    float: left;
-    width: 33.33%;
-}
+  #footer-card {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
 
+  #footer-col-1 {
+    padding: 0 1rem;
+  }
 
-.row:after {
-    content: "";
-    display: table;
-    clear  : both;
-}
-
-.benefits{
-    padding-left: 4%;
-}
-.loiich{
-    padding-left: 7%;
-
-}
-
-
-.copyright{
-    justify-content: space-between;
+  #footer-col-2 {
     text-align: center;
-}
-/*-------------------- ket thuc phan footer --------------------*/
+    padding: 0 4rem;
+  }
+
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  #footer-col-3 {
+    padding: 0 1rem 0 4rem;
+  }
+
+  #social {
+    text-decoration: none;
+    color: #fff;
+  }
