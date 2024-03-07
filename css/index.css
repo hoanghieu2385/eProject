@@ -8,21 +8,35 @@ body {
     color: #fff;
   }
 
-  ul#main-menu {
+  ul#menu {
     text-align: center;
     margin: 8px 0px 8px;
   }
 
-  ul#main-menu li {
+  ul#menu li {
     display: inline;
     padding: 15px;
     max-width: 50px;
   }
 
-  ul#main-menu li a {
+  ul#menu li a {
     text-decoration: none;
     color: #fff;
     font-size: large;
+  }
+
+  ul#dropdown-menu {
+    background-color: #1f1f1f;
+  }
+
+  ul#dropdown-menu li {
+    display: block;
+  }
+
+  ul#dropdown-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
   }
 
   .logo img {
