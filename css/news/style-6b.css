@@ -129,54 +129,41 @@ body {
 /*-------------------- ket thuc phan body --------------------*/
 
 
-/* -------------------- bat phan footer  --------------------*/
-footer{
-    min-width: 800px;
-}
-
-
-.column {
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear  : both;
-}
-
-.benefits {
-    padding-left: 4%;
-}
-
-.loiich {
-    padding-left: 7%;
-
-}
-
-ul li a {
-    list-style: none;
+#links-footer {
     text-decoration: none;
-}
+    color: beige;
+  }
 
-ol li {
-    margin: 5px;
-}
+  #footer {
+    padding-top: 100px;
+    min-width: 785px;
+  }
 
-.copyright {
-    justify-content: space-between;
-    text-align     : center;
-}
-
-a {
-    color: white;
+  #footer-card {
     background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  #footer-col-1 {
+    padding: 0 1rem;
+  }
+
+  #footer-col-2 {
+    text-align: center;
+    padding: 0 4rem;
+  }
+
+  a {
     text-decoration: none;
-}
+    list-style: none;
+  }
 
-.col-3{
-    margin: 0 34px;
-}
+  #footer-col-3 {
+    padding: 0 1rem 0 4rem;
+  }
 
-/* -------------------- ket thuc phan footer --------------------*/
+  #social {
+    text-decoration: none;
+    color: #fff;
+  }
