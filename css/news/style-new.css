@@ -7,7 +7,10 @@
 }
 
 /* -------------------- bat dau phan header --------------------*/
-
+#header {
+    position: relative;
+    z-index: 9999;
+}
 
 nav {
     display        : flex;
@@ -79,6 +82,7 @@ body {
 
 .image-container {
     position: relative;
+    padding: 50px;
 }
 
 .image-container img {

@@ -9,7 +9,10 @@
 }
 
 /* -------------------- bat dau phan header --------------------*/
-
+#header {
+  position: relative;
+  z-index: 9999;
+}
 
 nav {
     display        : flex;
@@ -103,17 +106,12 @@ body {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
     background-color: transparent;
-}
-
-.paragraph h2 {
-  font-family: 'Chronicle Display', sans-serif;
 }
 
 .paragraph p {
     line-height: 1.5;
-    /* font-family: 'Gilroy-Bold', sans-serif; */
 }
 
 .image-container img{

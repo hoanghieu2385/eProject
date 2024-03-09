@@ -9,7 +9,10 @@
 }
 
 /* -------------------- bat dau phan header --------------------*/
-
+#header {
+  position: relative;
+  z-index: 9999;
+}
 
 nav {
     display        : flex;
