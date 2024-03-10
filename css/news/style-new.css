@@ -228,3 +228,14 @@ a {
 #myBtn:hover {
     background-color: #555;
 }
+
+
+
+
+/* phien ban cho ipad doc */
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .overlay-text h1{
+        font-size: 30px;
+    }
+}

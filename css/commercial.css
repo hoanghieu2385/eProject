@@ -144,11 +144,17 @@ body {
     height: auto;
 }
 
-.mota_benphai {
-    margin-left: 5%;
+.mota_bentrai {
+    padding-right: 2%;
 }
 
+.mota_benphai {
+    margin-left: 3%;
+}
 
+p{
+    padding-left: 17px;
+}
 
 
 /*-------------------- ket thuc phan body --------------------*/
