@@ -6,6 +6,10 @@
 
 }
 
+#header {
+    position: relative;
+    z-index: 9999;
+  }
 /* -------------------- bat dau phan header --------------------*/
 .container {
     max-width: 960px;

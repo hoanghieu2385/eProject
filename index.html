@@ -20,16 +20,22 @@
 
     <div class="container-fluid" id="header">
       <div class="row" id="navbar">
-          <div class="col-md-7" style="padding: 5px 10px;"><a href="index.html" class="logo"><img src="./images/index/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
-          <div class="col-md-5" style="padding: 0%;">
-              <ul id="menu">
-                  <li><a href="residential.html">Residential</a></li>
-                  <li><a href="commercial.html">Commercial</a></li>
-                  <li><a href="fact_and_methods.html">Facts</a></li>
-                  <li><a href="./news/6.News.html">News</a></li>
-                  <li><a href="about-us.html">Contact Us</a></li>
+        <div class="col-md-8" style="padding: 5px 10px;"><a href="index.html" class="logo"><img
+              src="./images/index/Logo-page-co-chu1.png" alt="Rainwater Harvesting"></a></div>
+        <div class="col-md-4" style="padding: 0%;">
+          <ul id="menu">
+            <li>
+              <a href="#">Learn <span><i class="fa-solid fa-caret-down"></i></span></a>
+              <ul class="sub-menu">
+                <li><a href="residential.html">Residential</a></li>
+                <li><a href="commercial.html">Commercial</a></li>
               </ul>
-          </div>
+            </li>
+            <li><a href="fact_and_methods.html">Facts</a></li>
+            <li><a href="./news/6.News.html">News</a></li>
+            <li><a href="about-us.html">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -88,8 +94,10 @@
                 environmental sustainability. Embracing this approach not only benefits individual
                 households and businesses but also promotes responsible water management in urban
                 environments.</p>
-              <p><a href="residential.html" id="links">residential <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
-              <p><a href="commercial.html" id="links">commercial <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+              <p><a href="residential.html" id="links">residential <span><i
+                      class="fa-solid fa-arrow-right-long"></i></span></a></p>
+              <p><a href="commercial.html" id="links">commercial <span><i
+                      class="fa-solid fa-arrow-right-long"></i></span></a></p>
             </div>
           </div>
         </div>
@@ -109,7 +117,8 @@
                 cost-efficient and versatile approach applicable in both residential and commercial
                 settings. In the following facts, we explore the key aspects that underscore the
                 importance of harvesting rain for a more sustainable water future.</p>
-              <p><a href="fact_and_methods.html" id="links">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+              <p><a href="fact_and_methods.html" id="links">more <span><i
+                      class="fa-solid fa-arrow-right-long"></i></span></a></p>
             </div>
           </div>
           <div class="col-md-5">
@@ -134,7 +143,8 @@
                 and utilize rainwater. In the following exploration, we delve into the latest innovations
                 that are revolutionizing rainwater harvesting, offering more efficient, scalable,
                 and eco-friendly solutions for water conservation in diverse environments.</p>
-              <p><a href="news/6.News.html" id="links">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a></p>
+              <p><a href="news/6.News.html" id="links">more <span><i
+                      class="fa-solid fa-arrow-right-long"></i></span></a></p>
             </div>
           </div>
         </div>
@@ -174,6 +184,7 @@
             <p class="card-text">
             <p><a href="residential.html" id="links-footer">Residential Area</a></p>
             <p><a href="commercial.html" id="links-footer">Commercial Area</a></p>
+            <p><a href="fact_and_methods.html" id="links-footer">Facts</a></p>
             <p><a href="news/6.News.html" id="links-footer">News</a></p>
             <p><a href="about-us.html" id="links-footer">About Us</a></p>
             </p>
@@ -214,13 +225,14 @@
     </div>
   </footer>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fa-solid fa-circle-chevron-up fa-2xl"></i></span></button>
-  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i
+        class="fa-solid fa-circle-chevron-up fa-2xl"></i></span></button>
+
   <script>
     var prevScrollpos = window.pageYOffset;
     var mybutton = document.getElementById("myBtn");
-  
-    window.onscroll = function() {
+
+    window.onscroll = function () {
       // Header hiding logic
       var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
@@ -229,7 +241,7 @@
         document.getElementById("navbar").style.top = "-50px";
       }
       prevScrollpos = currentScrollPos;
-  
+
       // Scroll to top button visibility logic
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         mybutton.style.display = "block";
@@ -237,7 +249,7 @@
         mybutton.style.display = "none";
       }
     };
-  
+
     // Scroll to top button functionality
     function topFunction() {
       document.body.scrollTop = 0;
