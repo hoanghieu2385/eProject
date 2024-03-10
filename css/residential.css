@@ -12,11 +12,13 @@ nav {
     display        : flex;
     justify-content: space-between;
     justify-items  : center;
+    font-weight: bold;
 }
 
 .logo img {
-    max-width: 220px;
+    max-width: 150px;
     height   : auto;
+    padding: 8px 0px;
 }
 
 .about-us {
