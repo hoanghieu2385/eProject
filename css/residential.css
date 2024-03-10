@@ -85,6 +85,10 @@ body {
     margin             : 0 auto;
 }
 
+.desc1 h2 {
+    margin-left: 21px;
+}
+
 .residential {
     margin-top: 50px;
     margin-bottom: 20px;
