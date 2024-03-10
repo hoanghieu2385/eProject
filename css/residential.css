@@ -20,10 +20,9 @@ nav {
     height   : auto;
     padding: 8px 0px;
 }
-
-.about-us {
+.about-us{
     text-decoration: none;
-    color          : #FBD784;
+    color: #FBD784;
 }
 
 #main-menu {
@@ -88,17 +87,13 @@ body {
 
 .residential {
     margin-top: 50px;
-}
-
-.residential h1 {
-    margin-bottom: 30px;
-    margin-left: 2%;
-}
-
-.residential-systems {
-    margin-top   : 50px;
     margin-bottom: 20px;
 }
+.residential-systems{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 
 .about {
     display         : flex;
