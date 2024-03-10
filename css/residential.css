@@ -18,10 +18,6 @@ nav {
     max-width: 220px;
     height   : auto;
 }
-.about-us{
-    text-decoration: none;
-    color: #FBD784;
-}
 
 #main-menu {
     display   : flex;
@@ -84,11 +80,16 @@ body {
 
 .residential{
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 .residential-systems{
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+.about-us{
+    color: aqua;
+}
+
 
 .about{
     display: flex;
