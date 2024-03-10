@@ -18,14 +18,16 @@
 }
 
 nav {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    justify-items: center;
+    justify-items  : center;
+    font-weight: bold;
 }
 
 .logo img {
-    max-width: 220px;
-    height: auto;
+    max-width: 150px;
+    height   : auto;
+    padding: 8px 0px;
 }
 
 #main-menu {
