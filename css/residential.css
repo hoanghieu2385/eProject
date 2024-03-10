@@ -140,7 +140,7 @@ body {
 }
 
 .product-2 img {
-    width : 100%;
+    width : 250px;
     height: auto;
 }
 
@@ -155,11 +155,11 @@ body {
 }
 
 .mota_benphai {
-    margin-left: 5%;
+    margin-left: 24px;
 }
 
 .mota_bentrai {
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 p{

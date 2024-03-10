@@ -144,8 +144,12 @@ body {
     height: auto;
 }
 
+.mota_bentrai {
+    padding-right: 2%;
+}
+
 .mota_benphai {
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 p{
