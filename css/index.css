@@ -58,6 +58,7 @@ ul#menu li a {
 .logo img {
   max-width: 150px;
   height: auto;
+  margin-left: 30px;
 }
 
 #header {
