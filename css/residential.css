@@ -80,6 +80,7 @@ body {
     background-position: center;
     background-size    : cover;
     max-width          : 1050px;
+    min-width          : 750px;
     margin             : 0 auto;
 }
 
@@ -87,8 +88,9 @@ body {
     margin-top: 50px;
 }
 
-.residential h1{
+.residential h1 {
     margin-bottom: 30px;
+    margin-left: 2%;
 }
 
 .residential-systems {
@@ -106,12 +108,16 @@ body {
     font-size       : larger;
 }
 
+.desc1 p {
+    min-width: 520px;
+}
+
 .about img {
     width : 180px;
     height: 280px;
 }
 
-.desc1 p{
+.desc1 p {
     padding-right: 20px;
 }
 
@@ -162,7 +168,7 @@ body {
     margin-right: 2%;
 }
 
-p{
+p {
     padding-left: 17px;
 }
 
@@ -234,16 +240,16 @@ a {
 
 /* phien ban cho ipad doc */
 /*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px){
-    .residential h1{
+@media screen and (max-width: 768px) {
+    .residential h1 {
         text-align: center;
     }
 
-    .residential-systems h2{
+    .residential-systems h2 {
         padding-left: 20px;
     }
 
-    .mota_bentrai{
+    .mota_bentrai {
         margin-left: 15px;
     }
 
