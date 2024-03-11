@@ -22,14 +22,9 @@ nav {
 }
 
 .logo img {
-<<<<<<< HEAD
-    max-width: 190px;
-    height   : auto;
-=======
   max-width: 150px;
   height   : auto;
   padding: 8px 0px;
->>>>>>> 30c7c2e5f97c34d9cff54aba3a83589b95e4585c
 }
 
 #main-menu {
