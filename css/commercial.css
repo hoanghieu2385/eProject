@@ -14,11 +14,17 @@ nav {
     display        : flex;
     justify-content: space-between;
     justify-items  : center;
+    font-weight: bold;
 }
 
 .logo img {
+<<<<<<< HEAD
     max-width: 190px;
+=======
+    max-width: 150px;
+>>>>>>> 30c7c2e5f97c34d9cff54aba3a83589b95e4585c
     height   : auto;
+    padding: 8px 0px;
 }
 
 #main-menu {

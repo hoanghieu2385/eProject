@@ -12,16 +12,21 @@ nav {
     display        : flex;
     justify-content: space-between;
     justify-items  : center;
+    font-weight: bold;
 }
 
 .logo img {
+<<<<<<< HEAD
     max-width: 190px;
+=======
+    max-width: 150px;
+>>>>>>> 30c7c2e5f97c34d9cff54aba3a83589b95e4585c
     height   : auto;
+    padding: 8px 0px;
 }
-
-.about-us {
+.about-us{
     text-decoration: none;
-    color          : #FBD784;
+    color: #FBD784;
 }
 
 #main-menu {
@@ -84,19 +89,19 @@ body {
     margin             : 0 auto;
 }
 
+.desc1 h2 {
+    margin-left: 21px;
+}
+
 .residential {
     margin-top: 50px;
-}
-
-.residential h1 {
-    margin-bottom: 30px;
-    margin-left: 2%;
-}
-
-.residential-systems {
-    margin-top   : 50px;
     margin-bottom: 20px;
 }
+.residential-systems{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 
 .about {
     display         : flex;
