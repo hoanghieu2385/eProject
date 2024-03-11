@@ -73,6 +73,26 @@ ul#menu li a {
   background-position: center;
 }
 
+.scroll-down {
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
 #navbar {
   background-color: #1f1f1f;
   position: fixed;
