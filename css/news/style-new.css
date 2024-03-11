@@ -16,11 +16,13 @@ nav {
     display        : flex;
     justify-content: space-between;
     justify-items  : center;
+    font-weight: bold;
 }
 
 .logo img {
-    max-width: 220px;
+    max-width: 150px;
     height   : auto;
+    padding: 8px 0px;
 }
 
 #main-menu {
@@ -157,7 +159,7 @@ body {
 }
 
 #links {
-    color          : rgb(234, 234, 51);
+    color          : #FBD784;
     text-decoration: none;
 }
 
@@ -227,4 +229,15 @@ a {
 
 #myBtn:hover {
     background-color: #555;
+}
+
+
+
+
+/* phien ban cho ipad doc */
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .overlay-text h1{
+        font-size: 30px;
+    }
 }

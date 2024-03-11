@@ -15,14 +15,16 @@
 }
 
 nav {
-    display        : flex;
-    justify-content: space-between;
-    justify-items  : center;
+  display        : flex;
+  justify-content: space-between;
+  justify-items  : center;
+  font-weight: bold;
 }
 
 .logo img {
-    max-width: 220px;
-    height   : auto;
+  max-width: 150px;
+  height   : auto;
+  padding: 8px 0px;
 }
 
 #main-menu {
@@ -112,6 +114,7 @@ body {
 
 .paragraph p {
     line-height: 1.5;
+    padding-left: 20px;
 }
 
 .image-container img{
@@ -190,3 +193,23 @@ body {
   #myBtn:hover {
     background-color: #555;
   }
+
+  
+
+/* phien ban cho ipad doc */
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+  .paragraph h2{
+    padding-top: 0;
+    margin-left: 10px;
+    margin-bottom: 13px;
+  }
+
+  .paragraph p{
+    margin-left: 13px;
+  }
+
+  .image-container img{
+    width: 450px;
+  }
+}
