@@ -1,20 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family: Roboto;
-    color: white;
-
+    font-family     : Roboto;
 }
 
+/* -------------------- bat dau phan header --------------------*/
 #header {
     position: relative;
     z-index: 9999;
-  }
-/* -------------------- bat dau phan header --------------------*/
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-
+    background-color: #041228;
 }
 
 nav {
@@ -31,10 +25,10 @@ nav {
 }
 
 #main-menu {
-    display: flex;
+    display   : flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin    : 0;
+    padding   : 0;
 }
 
 #main-menu li {
@@ -42,19 +36,19 @@ nav {
 }
 
 #main-menu li a {
-    color: white;
-    display: block;
-    padding: 18px 20px;
+    color          : white;
+    display        : block;
+    padding        : 18px 20px;
     text-decoration: none;
 }
 
 #main-menu ul.sub-menu {
-    position: absolute;
-    background-color: rgb(38, 34, 34);
-    padding: 5px 0;
-    list-style: none;
-    width: 130px;
-    display: none;
+    position        : absolute;
+    background-color: #041228;
+    padding         : 5px 0;
+    list-style      : none;
+    width           : 130px;
+    display         : none;
 }
 
 #main-menu li:hover ul.sub-menu {
@@ -62,7 +56,7 @@ nav {
 }
 
 #main-menu ul.sub-menu a {
-    padding: 8px 15px;
+    padding      : 8px 15px;
     border-bottom: 1px solid rgb(63, 63, 63);
 }
 
@@ -77,12 +71,9 @@ nav {
 /* -------------------- ket thuc phan header --------------------*/
 
 body {
-    background-color: #1f1f1f;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 1050px;
-    margin: 0 auto;
+    background-color   : #fff;
+    color: #1f1f1f;
+    margin             : 0 auto;
 }
 
 .image-container .image-text h1 {
@@ -140,7 +131,7 @@ body {
     width: 100%;
     /* Đảm bảo hình ảnh lấp đầy khung hình chữ nhật */
     height: auto;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 
@@ -180,7 +171,7 @@ body {
 }
 
 .image-container2 img {
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .mota2 {
@@ -209,7 +200,7 @@ body {
 }
 
 .image-container3 img{
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .image-text3 {
@@ -220,66 +211,78 @@ body {
     padding: 5px;
 }
 
+.image-container,
+.image-container2,
+.image-container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /*-------------------- ket thuc phan body --------------------*/
+
+#footer {
+    padding-top: 50px;
+    min-width  : 785px;
+    max-width: 1520px;
+    background-color: #041228;
+}
+
+.card-body1{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 3%;
+}
 
 #links-footer {
     text-decoration: none;
-    color: beige;
-  }
+    color          : beige;
+}
 
-  #footer {
-    padding-top: 100px;
-    min-width: 785px;
-  }
-
-  #footer-card {
+#footer-card {
     background-color: transparent;
-    border: none;
-    color: white;
-  }
+    border          : none;
+    color           : white;
+}
 
-  #footer-col-1 {
+#footer-col-1 {
     padding: 0 1rem;
-  }
+}
 
-  #footer-col-2 {
+#footer-col-2 {
     text-align: center;
-    padding: 0 4rem;
-  }
+    padding   : 0 4rem;
+}
 
-  a {
+a {
     text-decoration: none;
-    list-style: none;
-  }
+    list-style     : none;
+}
 
-  #footer-col-3 {
+#footer-col-3 {
     padding: 0 1rem 0 4rem;
-  }
+}
 
-  #social {
+#social {
     text-decoration: none;
-    color: #fff;
-  }
+    color          : #fff;
+}
 
-
-
-
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
+#myBtn {
+    display         : none;
+    position        : fixed;
+    bottom          : 20px;
+    right           : 30px;
+    z-index         : 99;
+    font-size       : 18px;
+    border          : none;
+    outline         : none;
     background-color: #1f1f1f;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+    color           : white;
+    cursor          : pointer;
+    padding         : 15px;
+    border-radius   : 4px;
+}
+
+#myBtn:hover {
     background-color: #555;
-  }
+}
