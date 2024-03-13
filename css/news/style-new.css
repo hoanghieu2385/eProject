@@ -2,14 +2,13 @@
 
 * {
     font-family     : Roboto;
-    color           : rgb(255, 255, 255);
-    background-color: #1f1f1f;
 }
 
 /* -------------------- bat dau phan header --------------------*/
 #header {
     position: relative;
     z-index: 9999;
+    background-color: #041228;
 }
 
 nav {
@@ -45,7 +44,7 @@ nav {
 
 #main-menu ul.sub-menu {
     position        : absolute;
-    background-color: rgb(38, 34, 34);
+    background-color: #041228;
     padding         : 5px 0;
     list-style      : none;
     width           : 130px;
@@ -73,25 +72,22 @@ nav {
 
 /*-------------------- bat dau phan body --------------------*/
 body {
-    background-color   : #1f1f1f;
-    background-repeat  : no-repeat;
-    background-position: center;
-    background-size    : cover;
-    max-width          : 1050px;
+    background-color   : #fff;
+    color: #1f1f1f;
     margin             : 0 auto;
 }
 
 
 .image-container {
     position: relative;
-    padding: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
 
 .image-container img {
-    display: block;
+    display: flex;
     width  : 100%;
     height : auto;
-    opacity: 0.5;
 }
 
 .overlay-text {
@@ -108,10 +104,11 @@ body {
 }
 
 .overlay-text h1 {
-    font-size       : 40px;
+    font-size       : 55px;
     margin-bottom   : 50px;
     background-color: transparent;
     white-space     : nowrap;
+    font-family: serif;
 }
 
 .overlay-text p {
@@ -129,9 +126,11 @@ body {
 .container1,
 .container2,
 .container3 {
-    padding    : 30px;
+    padding    : 50px;
     display    : flex;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container1 img,
@@ -150,7 +149,7 @@ body {
 }
 
 .container3 {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .container2 img {
@@ -159,7 +158,7 @@ body {
 }
 
 #links {
-    color          : #FBD784;
+    color          : #156ef1;
     text-decoration: none;
 }
 
@@ -169,15 +168,22 @@ body {
 
 /*-------------------- ket thuc phan body --------------------*/
 
+#footer {
+    padding-top: 50px;
+    min-width  : 785px;
+    max-width: 1520px;
+    background-color: #041228;
+}
+
+.card-body1{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 3%;
+}
 
 #links-footer {
     text-decoration: none;
     color          : beige;
-}
-
-#footer {
-    padding-top: 100px;
-    min-width  : 785px;
 }
 
 #footer-card {
@@ -209,8 +215,6 @@ a {
     color          : #fff;
 }
 
-
-
 #myBtn {
     display         : none;
     position        : fixed;
@@ -230,9 +234,6 @@ a {
 #myBtn:hover {
     background-color: #555;
 }
-
-
-
 
 /* phien ban cho ipad doc */
 /*Ipad dọc(768 x 1024)*/

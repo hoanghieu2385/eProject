@@ -51,7 +51,7 @@
             <h1>Technology IoT and Smart Management</h1>
             <p>Rainwater harvesting systems are increasingly incorporating Internet of Things (IoT) technology, utilizing sensors
                 to monitor water levels and adjust the harvesting process based on weather data and water demand.</p>
-            <p><a href="./6a.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #FBD784;"></i></span></a></p>
+            <p><a href="./6a.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #156ef1;"></i></span></a></p>
         </div>
     </div>
     
@@ -60,7 +60,7 @@
             <h1>Diverse Water Processing Technologies</h1>
             <p>Progress in water processing technology contributes to improving the quality of harvested water, making it
                 suitable for various purposes.</p>
-            <p><a href="./6b.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #FBD784;"></i></span></a></p>
+            <p><a href="./6b.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #156ef1;"></i></span></a></p>
         </div>
         <img src="../images/news/img-new/lua-chon-cong-nghe-xu-ly-nuoc-thai.jpg" alt="IoT Water">
     </div>
@@ -71,17 +71,46 @@
             <h1>Real-world Application Projects</h1>
             <p>Numerous real-world projects around the globe are implementing rainwater harvesting to improve water sources for
                 both urban and rural communities.</p>
-            <p><a href="./6c.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #FBD784;"></i></span></a></p>
+            <p><a href="./6c.html" id="links">more <span><i class="fa-solid fa-right-long" style="color: #156ef1;"></i></span></a></p>
         </div>
     </div>
 
-    <div class="container-xxl" id="footer">
+    
+    
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fa-solid fa-circle-chevron-up fa-2xl"></i></span></button>
+
+      <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+
+      <footer class="text-center text-white">
+
+        <div class="container-xxl" id="footer">
 
         <div class="row row-cols-3 row-cols-md-3">
     
           <div class="col" id="footer-col-1">
             <div class="card" id="footer-card">
-              <div class="card-body">
+              <div class="card-body1">
                 <h5 class="card-title">Rain Water Harvesting <span><i class="fa-solid fa-droplet"></i></span></h5>
                 <div>
                   <p>
@@ -137,39 +166,13 @@
           </div>
     
         </div>
-    
-      </div>
-    
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fa-solid fa-circle-chevron-up fa-2xl"></i></span></button>
-
-      <script>
-        // Get the button
-        let mybutton = document.getElementById("myBtn");
-        
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-        </script>
-
-
-      <footer class="text-center text-white">
         <div class="text-center p-3">
-          © 2024 Copyright:
-          <a class="text-white" href="#">Irrigation.vn.com</a>
+            © 2024 Copyright:
+            <a class="text-white" href="#">Irrigation.vn.com</a>
         </div>
+      </div>
+
+        
 
       </footer>
 
