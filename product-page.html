@@ -43,7 +43,7 @@
 
 <body>
   <div id="container">
-    <div id="categories">
+    <aside id="categories">
       <div class="category" onclick="filterProducts('all')">All Categories</div>
       <div class="category" onclick="filterProducts('filter')">Filter</div>
       <div class="category" onclick="filterProducts('tanks')">Tanks</div>
@@ -52,20 +52,48 @@
       <div class="category" onclick="filterProducts('water_sterilisation')">Water Sterilisation</div>
 
       <!-- Add more categories as needed -->
-    </div>
+    </aside>
 
     <div id="content">
-      <div class="product" data-category="filter">
-        <div class="card" style="width: 12rem;">
-          <a href="#####">
-            <img class="card-img-top"
-              src="./images/Product_Page/Filter/WISY® LineAr Filter/WISY-LineAr-Filter-100-K-1.jpg"
-              alt="Card image cap">
+      <div class="card-group">
+        <div class="card">
+          <div class="product" data-category="filter">
+            <img src="./images/Product_Page/Filter/WISY® LineAr Filter/WISY-LineAr-Filter-100-K-1.jpg"
+              class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">WISY® LineAr Filter</h5>
-          </a>
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" data-category="tanks">
+            <img src="./images/Product_Page/tanks/Above Ground Plastic Tanks 400 – 30,000L/6000L-jumbo.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" data-category="filter">
+            <img src="./images/Product_Page/Filter/WISY® LineAr Filter/WISY-LineAr-Filter-100-K-1.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" data-category="filter">
+            <img src="./images/Product_Page/Filter/WISY® LineAr Filter/WISY-LineAr-Filter-100-K-1.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
     <div class="product" data-category="clothing">Product 2 (Clothing)</div>
     <div class="product" data-category="test1">Product 3 (Clothing)</div>

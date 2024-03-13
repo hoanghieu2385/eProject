@@ -19,7 +19,7 @@ body {
 }
 
 #content {
-    flex: 1;
+    flex: 4;
     padding: 20px;
     box-sizing: border-box;
 }
