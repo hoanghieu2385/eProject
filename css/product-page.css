@@ -10,8 +10,7 @@ nav {
     justify-content: space-between;
     justify-items: center;
     font-weight: bold;
-    clear: both;
-}
+    clear: both;}
 
 .logo img {
     max-width: 150px;
@@ -49,6 +48,7 @@ nav {
     list-style: none;
     width: 130px;
     display: none;
+    z-index: 99;
 }
 
 #main-menu li:hover ul.sub-menu {
