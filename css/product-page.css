@@ -133,12 +133,6 @@ a {
 
 
 /* test product page Hieu */
-/* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-* {
-    font-family: "Poppins", sans-serif;
-}
 
 body {
     background: #f1f1f1 !important;
@@ -146,6 +140,10 @@ body {
 
 body .container {
     max-width: 1100px;
+}
+
+#filterable-cards .card:hover{
+    border: 1px solid rgb(58, 97, 131);
 }
 
 #filter-buttons button {
@@ -166,6 +164,7 @@ body .container {
 #filterable-cards .card {
     width: 15rem;
     border: 2px solid transparent;
+    overflow: hidden;
 }
 
 #filterable-cards .card.hide {
@@ -175,8 +174,9 @@ body .container {
 img:hover{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.03);
+    transform: scale(1.07);
     transition: transform .2s;
+    
 }
 
 @media (max-width: 600px) {
