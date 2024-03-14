@@ -1,12 +1,12 @@
 body {
-  background: #1f1f1f;
+  background: #fff;
   scroll-behavior: smooth;
 }
 
 [class*="col"] {
   padding: 1rem;
   border: 2px;
-  color: #fff;
+  color: #1f1f1f;
 }
 
 ul#menu {
@@ -30,16 +30,16 @@ ul#menu li a {
 
 #menu ul.sub-menu {
   position: absolute;
-  background-color: #1f1f1f;
-  padding: 5px 0;
+  background-color: #1d2a3e;
+  padding: 8px 0px;
   list-style: none;
-  width: 120px;
+  width: 130px;
   display: none;
 }
 
 #menu li:hover ul.sub-menu {
   display: block;
-  block-size: 60px;
+  /* block-size: 80px; */
 }
 
 #menu ul.sub-menu a {
@@ -48,7 +48,7 @@ ul#menu li a {
 }
 
 #menu ul.sub-menu a:hover {
-  background-color: rgb(63, 63, 63);
+  background-color: #fff;
 }
 
 #menu ul.sub-menu li:last-child a {
@@ -68,7 +68,7 @@ ul#menu li a {
 }
 
 .big-banner {
-  background-image: url(../images/index/window.jpg);
+  background-image: url(../images/index/rain1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -95,15 +95,11 @@ ul#menu li a {
 }
 
 #navbar {
-  background-color: #1f1f1f;
+  background-color: #1d2a3e;
   position: fixed;
-  /* Make it stick/fixed */
   top: 0;
-  /* Stay on top */
   width: 100%;
-  /* Full width */
   transition: top 0.3s;
-  /* Transition effect when sliding down (and up) */
 }
 
 #intro {
@@ -113,7 +109,7 @@ ul#menu li a {
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -139,7 +135,7 @@ ul#menu li a {
 }
 
 p.card-text {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #image-in-content {
@@ -148,33 +144,33 @@ p.card-text {
 }
 
 #yellow-text {
-  color: #FBD784;
+  color: #0078ff;
   padding-bottom: 13px;
 }
 
 #links {
   text-decoration: none;
-  color: #FBD784;
+  color: #0078ff;
 }
 
 #links-footer {
   text-decoration: none;
-  color: beige;
+  color: #fff;
 }
 
 #footer {
-  padding-top: 100px;
-  min-width: 785px;
+  background-color: #041228;
 }
 
 #footer-card {
   background-color: transparent;
   border: none;
-  color: white;
+  color: #fff;
 }
 
 #footer-col-1 {
-  padding: 0 1rem;
+  text-align: start;
+  padding: 0 0 0 4rem;
 }
 
 #footer-col-2 {
@@ -188,7 +184,8 @@ a {
 }
 
 #footer-col-3 {
-  padding: 0 1rem 0 4rem;
+  text-align: start;
+  padding: 0 0 0 5rem;
 }
 
 #social {
@@ -207,8 +204,8 @@ a {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #1f1f1f;
-  color: white;
+  background-color: transparent;
+  color: #1f1f1f;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
