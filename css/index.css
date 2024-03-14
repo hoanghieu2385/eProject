@@ -31,15 +31,15 @@ ul#menu li a {
 #menu ul.sub-menu {
   position: absolute;
   background-color: #1d2a3e;
-  padding: 5px 0px;
+  padding: 8px 0px;
   list-style: none;
-  width: 140px;
+  width: 130px;
   display: none;
 }
 
 #menu li:hover ul.sub-menu {
   display: block;
-  block-size: 60px;
+  /* block-size: 80px; */
 }
 
 #menu ul.sub-menu a {
@@ -48,7 +48,7 @@ ul#menu li a {
 }
 
 #menu ul.sub-menu a:hover {
-  background-color: rgb(63, 63, 63);
+  background-color: #fff;
 }
 
 #menu ul.sub-menu li:last-child a {
@@ -170,7 +170,7 @@ p.card-text {
 
 #footer-col-1 {
   text-align: start;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 4rem;
 }
 
 #footer-col-2 {
@@ -185,7 +185,7 @@ a {
 
 #footer-col-3 {
   text-align: start;
-  padding: 0 1rem 0 4rem;
+  padding: 0 0 0 5rem;
 }
 
 #social {
