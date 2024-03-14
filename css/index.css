@@ -68,7 +68,7 @@ ul#menu li a {
 }
 
 .big-banner {
-  background-image: url(../images/index/rain1.jpg);
+  background-image: url(../images/index/water.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,7 +109,7 @@ ul#menu li a {
 
 .centered {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -122,11 +122,11 @@ ul#menu li a {
 }
 
 #card-title {
-  font-family: 'Chronicle Display', sans-serif;
+  font-family: 'Shameimaru Sans', sans-serif;
 }
 
 #card-text {
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: 'Shameimaru Sans', sans-serif;
 }
 
 #text-1 {
@@ -135,7 +135,7 @@ ul#menu li a {
 }
 
 p.card-text {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #image-in-content {
