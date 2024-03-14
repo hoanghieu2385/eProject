@@ -1,63 +1,34 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-}
+} */
 
-#container {
-    display: flex;
-}
-
-#categories {
-    width: 200px;
-    height: 50vh;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#content {
-    flex: 1;
-    padding: 20px;
-    /* box-sizing: border-box; */
-}
-
-.category {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.product {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 nav {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    justify-items  : center;
+    justify-items: center;
     font-weight: bold;
+    clear: both;
 }
 
 .logo img {
     max-width: 150px;
-    height   : auto;
+    height: auto;
     padding: 8px 0px;
 }
-.about-us{
+
+.about-us {
     text-decoration: none;
     color: #FBD784;
 }
 
 #main-menu {
-    display   : flex;
+    display: flex;
     list-style: none;
-    margin    : 0;
-    padding   : 0;
+    margin: 0;
+    padding: 0;
 }
 
 #main-menu li {
@@ -65,19 +36,19 @@ nav {
 }
 
 #main-menu li a {
-    color          : black;
-    display        : block;
-    padding        : 18px 20px;
+    color: black;
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
 #main-menu ul.sub-menu {
-    position        : absolute;
+    position: absolute;
     background-color: rgb(38, 34, 34);
-    padding         : 5px 0;
-    list-style      : none;
-    width           : 130px;
-    display         : none;
+    padding: 5px 0;
+    list-style: none;
+    width: 130px;
+    display: none;
 }
 
 #main-menu li:hover ul.sub-menu {
@@ -85,7 +56,7 @@ nav {
 }
 
 #main-menu ul.sub-menu a {
-    padding      : 8px 15px;
+    padding: 8px 15px;
     border-bottom: 1px solid rgb(63, 63, 63);
 }
 
@@ -99,18 +70,18 @@ nav {
 
 #links-footer {
     text-decoration: none;
-    color          : beige;
+    color: beige;
 }
 
 #footer {
     padding-top: 100px;
-    min-width  : 785px;
+    min-width: 785px;
 }
 
 #footer-card {
     background-color: rgb(63, 63, 63);
-    border          : none;
-    color           : black;
+    border: none;
+    color: black;
 }
 
 #footer-col-1 {
@@ -119,12 +90,12 @@ nav {
 
 #footer-col-2 {
     text-align: center;
-    padding   : 0 4rem;
+    padding: 0 4rem;
 }
 
 a {
     text-decoration: none;
-    list-style     : none;
+    list-style: none;
 }
 
 #footer-col-3 {
@@ -133,26 +104,87 @@ a {
 
 #social {
     text-decoration: none;
-    color          : #fff;
+    color: #fff;
 }
 
 
 #myBtn {
-    display         : none;
-    position        : fixed;
-    bottom          : 20px;
-    right           : 30px;
-    z-index         : 99;
-    font-size       : 18px;
-    border          : none;
-    outline         : none;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
     background-color: #1f1f1f;
-    color           : white;
-    cursor          : pointer;
-    padding         : 15px;
-    border-radius   : 4px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    position: fixed;
+
 }
 
 #myBtn:hover {
     background-color: #555;
+}
+
+
+
+/* test product page Hieu */
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f1f1f1 !important;
+}
+
+body .container {
+    max-width: 1100px;
+}
+
+#filter-buttons button {
+    border-radius: 3px;
+    background: #fff;
+    border-color: transparent;
+}
+
+#filter-buttons button:hover {
+    background: #ddd;
+}
+
+#filter-buttons button.active {
+    color: #fff;
+    background: #6c757d;
+}
+
+#filterable-cards .card {
+    width: 15rem;
+    border: 2px solid transparent;
+}
+
+#filterable-cards .card.hide {
+    display: none;
+}
+
+img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.03);
+    transition: transform .2s;
+}
+
+@media (max-width: 600px) {
+    #filterable-cards {
+        justify-content: center;
+    }
+
+    #filterable-cards .card {
+        width: calc(100% / 2 - 10px);
+    }
 }
