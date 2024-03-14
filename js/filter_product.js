@@ -17,3 +17,23 @@ const filterCards = (e) => {
 }
 
 filterButtons.forEach(button => button.addEventListener("click", filterCards));
+
+
+
+// link in card
+document.addEventListener('DOMContentLoaded', function() {
+    // Lấy tất cả các thẻ card
+    var cards = document.querySelectorAll('.card');
+  
+    // Lặp qua mỗi thẻ card và thêm sự kiện nhấp chuột
+    cards.forEach(function(card) {
+      card.addEventListener('click', function() {
+        // Lấy liên kết từ thuộc tính href của thẻ a trong thẻ card
+        var link = card.querySelector('a').getAttribute('href');
+        
+        // Chuyển hướng đến liên kết
+        window.location.href = link;
+      });
+    });
+  });
+  
