@@ -42,7 +42,7 @@ nav {
 
 #main-menu ul.sub-menu {
     position: absolute;
-    background-color: rgb(38, 34, 34);
+    background-color: #1d2a3e;
     padding: 5px 0;
     list-style: none;
     width: 130px;
@@ -188,7 +188,7 @@ iframe {
 #footer {
     padding-top: 30px;
     min-width: 785px;
-    background-color: #1d2a3e;
+    background-color: #041228 ;
 }
 
 #footer-card {
