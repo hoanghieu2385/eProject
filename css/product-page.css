@@ -60,7 +60,7 @@ nav {
 
 #main-menu ul.sub-menu a {
     padding: 8px 15px;
-    border-bottom: 1px solid rgb(63, 63, 63);
+    border-bottom: 1px solid 1d2a3e;
 }
 
 #main-menu ul.sub-menu a:hover {
@@ -88,7 +88,8 @@ nav {
 }
 
 #footer-col-1 {
-    padding: 0 1rem;
+    padding: 0 2rem;
+    text-align: left;
 }
 
 #footer-col-2 {
@@ -147,7 +148,7 @@ body .container {
     padding-bottom: 100px;
 }
 
-body .card-title{
+.container .card-title{
     text-align: center;
 }
 
