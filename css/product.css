@@ -1,0 +1,112 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-weight: bold;
+    clear: both;}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    padding: 8px 0px;
+}
+
+.about-us {
+    text-decoration: none;
+    color: #FBD784;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: black;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    background-color: rgb(38, 34, 34);
+    padding: 5px 0;
+    list-style: none;
+    width: 130px;
+    display: none;
+    z-index: 99;
+}
+
+#main-menu li:hover ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a {
+    padding: 8px 15px;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu a:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: none;
+}
+
+#links-footer {
+    text-decoration: none;
+    color: beige;
+}
+
+#footer {
+    padding-top: 100px;
+    min-width: 785px;
+}
+
+#footer-card {
+    background-color: rgb(63, 63, 63);
+    border: none;
+    color: black;
+}
+
+#footer-col-1 {
+    padding: 0 1rem;
+}
+
+#footer-col-2 {
+    text-align: center;
+    padding: 0 4rem;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-col-3 {
+    padding: 0 1rem 0 4rem;
+}
+
+#social {
+    text-decoration: none;
+    color: #fff;
+}
+/* Chinh sua div cua product. Co lam thanh 2 phan */
+.bentrai {
+    display: flex;
+    max-width: 800px;
+    align-items: left;
+}
+.benphai {
+    display: flex;
+    max-width: 700px;
+    align-items: right;
+}
