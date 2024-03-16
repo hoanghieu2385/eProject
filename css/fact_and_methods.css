@@ -8,27 +8,27 @@
 #header {
     position: relative;
     z-index: 9999;
-    background-color: #041228;
 }
 
 nav {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    justify-items  : center;
+    justify-items: center;
     font-weight: bold;
+    background-color: #1d2a3e;
 }
 
 .logo img {
     max-width: 150px;
-    height   : auto;
+    height: auto;
     padding: 8px 0px;
 }
 
 #main-menu {
-    display   : flex;
+    display: flex;
     list-style: none;
-    margin    : 0;
-    padding   : 0;
+    margin: 0;
+    padding: 0;
 }
 
 #main-menu li {
@@ -36,19 +36,19 @@ nav {
 }
 
 #main-menu li a {
-    color          : white;
-    display        : block;
-    padding        : 18px 20px;
+    color: white;
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
 #main-menu ul.sub-menu {
-    position        : absolute;
-    background-color: #041228;
-    padding         : 5px 0;
-    list-style      : none;
-    width           : 130px;
-    display         : none;
+    position: absolute;
+    background-color: #1d2a3e;
+    padding: 5px 0;
+    list-style: none;
+    width: 130px;
+    display: none;
 }
 
 #main-menu li:hover ul.sub-menu {
@@ -56,23 +56,25 @@ nav {
 }
 
 #main-menu ul.sub-menu a {
-    padding      : 8px 15px;
+    padding: 8px 15px;
     border-bottom: 1px solid rgb(63, 63, 63);
 }
 
 #main-menu ul.sub-menu a:hover {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(80, 94, 118);
+
 }
 
 #main-menu ul.sub-menu li:last-child a {
     border: none;
 }
 
+
 /* -------------------- ket thuc phan header --------------------*/
 
 body {
     background-color   : #fff;
-    color: #1f1f1f;
+    /* color: #1f1f1f; */
     margin             : 0 auto;
 }
 
@@ -88,7 +90,7 @@ body {
 }
 
 .image-text {
-    background: url('../images/img-fact-and-methods/R.jpg') no-repeat;
+    background: url('../images/img-fact-and-methods/pexels-photo-9586507.jpeg') no-repeat;
     background-size: cover;
     -webkit-background-clip: text;
     color: transparent;
