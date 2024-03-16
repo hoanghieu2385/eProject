@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
 
 *{
     box-sizing: border-box;
@@ -278,7 +278,7 @@ img{
     color: beige;
 }
 
-#footer {
+footer {
     padding-top: 30px;
     min-width: 785px;
     background-color: #041228 ;
@@ -315,6 +315,37 @@ a {
 }
 
 
+.row {
+    display: grid;
+    grid-template-columns: 1.5fr 1.8fr 1.5fr; /* Equal width columns */
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-center a{
+    color: beige;
+}
+
+.card-body1{
+    padding-left: 12%;
+}
+
+.card-body2{
+    text-align: center;
+}
+
+.card-body3{
+    padding-left: 5%;
+
+}
+
+.iconfooter{
+    padding-top: 20px;
+}
 
 
 #myBtn {

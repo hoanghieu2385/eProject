@@ -1,3 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
+
+* {
+    font-family: 'Shameimaru Sans', sans-serif;
+    word-spacing: 5%;
+}
+
 /* body {
     font-family: Arial, sans-serif;
     margin: 0;
