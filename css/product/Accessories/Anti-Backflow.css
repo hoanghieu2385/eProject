@@ -241,6 +241,7 @@ img{
     .card-wrapper{
         height: 100vh;
         display: flex;
+        flex-direction: column(2, 1fr);
         justify-content: center;
         align-items: center;
     }
@@ -259,13 +260,8 @@ img{
     color: blue;
 }
 
-.video{
-    padding-left: 12%;
-    padding-bottom: 40px;
-}
-
-.video h2{
-    padding-bottom: 20px;
+.card-title{
+    font-size: larger;
 }
 
 
