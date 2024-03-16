@@ -80,10 +80,10 @@ body {
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
-    max-width          : 1050px;
-    min-width          : 750px;
     margin             : 0 auto;
 }
+
+b
 
 .desc1 h2 {
     margin-left: 21px;
@@ -180,49 +180,24 @@ p {
 
 #links-footer {
     text-decoration: none;
-    color          : beige;
+    color: beige;
 }
 
 #footer {
-    padding-top: 100px;
-    min-width  : 785px;
+    padding-top: 30px;
+    min-width: 785px;
+    background-color: #041228;
 }
 
 #footer-card {
     background-color: #041228;
-    border          : none;
-    color           : white;
-}
-
-
-a {
-    text-decoration: none;
-    list-style     : none;
-}
-
-#footer-col-3 {
-    padding: 0 1rem 0 4rem;
-}
-
-#social {
-    text-decoration: none;
-    color          : #fff;
-}
-#footer {
-    padding-top: 100px;
-    min-width: 785px;
-    background-color: #041228; /* Move the background color here */
-}
-
-#footer-card {
     border: none;
     color: white;
 }
 
-/* Remove background color from #footer-card */
-
 #footer-col-1 {
-    padding: 0 1rem;
+    text-align: start;
+    padding: 0 0 0 4rem;
 }
 
 #footer-col-2 {
@@ -236,7 +211,8 @@ a {
 }
 
 #footer-col-3 {
-    padding: 0 1rem 0 4rem;
+    text-align: start;
+    padding: 0 0 0 5rem;
 }
 
 #social {
@@ -244,27 +220,33 @@ a {
     color: #fff;
 }
 
+footer{
+    background-color: #041228;
+
+}
+
 
 
 #myBtn {
-    display         : none;
-    position        : fixed;
-    bottom          : 20px;
-    right           : 30px;
-    z-index         : 99;
-    font-size       : 18px;
-    border          : none;
-    outline         : none;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
     background-color: #1f1f1f;
-    color           : white;
-    cursor          : pointer;
-    padding         : 15px;
-    border-radius   : 4px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 #myBtn:hover {
     background-color: #555;
 }
+
 
 
 /* phien ban cho ipad doc */
