@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Shameimaru Sans', sans-serif;
-    color       : white;
     word-spacing: 5%;
 
 
@@ -11,23 +10,24 @@
 /* -------------------- bat dau phan header --------------------*/
 
 nav {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    justify-items  : center;
+    justify-items: center;
     font-weight: bold;
+    background-color: #1d2a3e;
 }
 
 .logo img {
     max-width: 150px;
-    height   : auto;
+    height: auto;
     padding: 8px 0px;
 }
 
 #main-menu {
-    display   : flex;
+    display: flex;
     list-style: none;
-    margin    : 0;
-    padding   : 0;
+    margin: 0;
+    padding: 0;
 }
 
 #main-menu li {
@@ -35,19 +35,19 @@ nav {
 }
 
 #main-menu li a {
-    color          : white;
-    display        : block;
-    padding        : 18px 20px;
+    color: white;
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
 #main-menu ul.sub-menu {
-    position        : absolute;
+    position: absolute;
     background-color: #1d2a3e;
-    padding         : 5px 0;
-    list-style      : none;
-    width           : 130px;
-    display         : none;
+    padding: 5px 0;
+    list-style: none;
+    width: 130px;
+    display: none;
 }
 
 #main-menu li:hover ul.sub-menu {
@@ -55,12 +55,12 @@ nav {
 }
 
 #main-menu ul.sub-menu a {
-    padding      : 8px 15px;
+    padding: 8px 15px;
     border-bottom: 1px solid #1d2a3e;
 }
 
 #main-menu ul.sub-menu a:hover {
-    background-color: #1d2a3e;
+    background-color: #486084;
 }
 
 #main-menu ul.sub-menu li:last-child a {
@@ -73,36 +73,51 @@ nav {
 
 /*-------------------- bat dau phan body --------------------*/
 
+h1, h2, h3 {
+    color: #456cb7;
+}
+p{
+    color:  #50636c;
+}
+
 body {
-    background-color   : #1f1f1f;
-    background-repeat  : no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size    : cover;
+    background-size: cover;
+    /* max-width          : 1050px; */
+    margin: 0 auto;
+}
+
+.boidz{
     max-width          : 1050px;
-    margin             : 0 auto;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
 }
 
 .tieude {
     margin: 50px auto;
+    margin-left: 30px;
 }
 
 .about {
-    display         : flex;
-    box-sizing      : border-box;
+    display: flex;
+    box-sizing: border-box;
     background-color: rgba(87, 87, 80, 0.34);
-    border-radius   : 2%;
-    padding         : 30px;
-    clear           : both;
-    font-size       : larger;
+    border-radius: 2%;
+    padding: 30px;
+    clear: both;
+    font-size: larger;
 }
 
+
 .about img {
-    width : 100%;
+    width: 100%;
     height: auto;
 }
 
 .image {
-    width    : 100%;
+    width: 100%;
     clip-path: polygon(27% 0.00%, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -112,37 +127,38 @@ body {
 
 
 .product-1 {
-    display      : flex;
-    margin-top   : 2%;
+    display: flex;
+    margin-top: 2%;
     margin-bottom: 30px;
 }
 
 .product-1 img {
-    width : 100%;
+    width: 100%;
     height: auto;
+    background-color: white !important;
 }
 
 
 .product-2 {
-    display      : flex;
-    margin-top   : 5%;
+    display: flex;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-bottom: 30px;
 }
 
 .product-2 img {
-    width : 100%;
+    width: 100%;
     height: auto;
 }
 
 .product-3 {
-    display      : flex;
+    display: flex;
     margin-bottom: 5%;
     margin-bottom: 30px;
 }
 
 .product-3 img {
-    width : 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -154,7 +170,7 @@ body {
     margin-left: 3%;
 }
 
-p{
+p {
     padding-left: 17px;
 }
 
@@ -164,59 +180,67 @@ p{
 
 #links-footer {
     text-decoration: none;
-    color          : beige;
+    color: beige;
 }
 
 #footer {
-    padding-top: 100px;
-    min-width  : 785px;
+    padding-top: 30px;
+    min-width: 785px;
+    background-color: #041228;
 }
 
 #footer-card {
     background-color: #041228;
-    border          : none;
-    color           : white;
+    border: none;
+    color: white;
 }
 
 #footer-col-1 {
-    padding: 0 1rem;
+    text-align: start;
+    padding: 0 0 0 4rem;
 }
 
 #footer-col-2 {
     text-align: center;
-    padding   : 0 4rem;
+    padding: 0 4rem;
 }
 
 a {
     text-decoration: none;
-    list-style     : none;
+    list-style: none;
 }
 
 #footer-col-3 {
-    padding: 0 1rem 0 4rem;
+    text-align: start;
+    padding: 0 0 0 5rem;
 }
 
 #social {
     text-decoration: none;
-    color          : #fff;
+    color: #fff;
+}
+
+footer{
+    background-color: #041228;
+
 }
 
 
 
 #myBtn {
-    display         : none;
-    position        : fixed;
-    bottom          : 20px;
-    right           : 30px;
-    z-index         : 99;
-    font-size       : 18px;
-    border          : none;
-    outline         : none;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
     background-color: #1f1f1f;
-    color           : white;
-    cursor          : pointer;
-    padding         : 15px;
-    border-radius   : 4px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 #myBtn:hover {
@@ -226,26 +250,32 @@ a {
 
 /* phien ban cho ipad doc */
 /*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px){
-    .tieude h1{
+@media screen and (max-width: 768px) {
+    .tieude h1 {
         margin-left: 30px;
         text-align: center;
     }
 
-    .tieudesanpham h2{
+    .tieudesanpham h2 {
         margin-left: 30px;
     }
 
-    .mota_bentrai{
+    .mota_bentrai {
         padding-left: 20px;
     }
 
-    .mota_bentrai p{
+    .mota_bentrai p {
         padding-right: 30px;
     }
 
-    .image{
+    .image {
         min-width: 370px;
-        height: auto;   
+        height: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 13200px;
     }
 }

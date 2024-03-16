@@ -158,9 +158,10 @@ img{
 }
 .product-detail p{
     font-size: 0.9rem;
-    padding: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0;
     opacity: 0.8;
 }
+
 .product-detail ul{
     margin: 1rem 0;
     font-size: 0.9rem;
@@ -256,7 +257,6 @@ img{
 
 .product-detail a{
     color: blue;
-    margin: 10px;
 }
 
 .video{
@@ -278,7 +278,7 @@ img{
     color: beige;
 }
 
-#footer {
+footer {
     padding-top: 30px;
     min-width: 785px;
     background-color: #041228 ;
@@ -315,6 +315,37 @@ a {
 }
 
 
+.row {
+    display: grid;
+    grid-template-columns: 1.5fr 1.8fr 1.5fr; /* Equal width columns */
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-center a{
+    color: beige;
+}
+
+.card-body1{
+    padding-left: 12%;
+}
+
+.card-body2{
+    text-align: center;
+}
+
+.card-body3{
+    padding-left: 5%;
+
+}
+
+.iconfooter{
+    padding-top: 20px;
+}
 
 
 #myBtn {
