@@ -239,8 +239,8 @@ img{
         grid-gap: 1.5rem;
     }
     .card-wrapper{
-        height: 100vh;
-        display: flex;
+        /* height: 100vh;
+        display: flex; */
         justify-content: center;
         align-items: center;
     }
@@ -257,15 +257,6 @@ img{
 
 .product-detail a{
     color: blue;
-}
-
-.video{
-    padding-left: 12%;
-    padding-bottom: 40px;
-}
-
-.video h2{
-    padding-bottom: 20px;
 }
 
 
@@ -306,6 +297,7 @@ a {
 }
 
 #footer-col-3 {
+    text-align: start;
     padding: 0 1rem 0 4rem;
 }
 
