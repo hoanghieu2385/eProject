@@ -194,14 +194,6 @@ p {
     color           : white;
 }
 
-#footer-col-1 {
-    padding: 0 1rem;
-}
-
-#footer-col-2 {
-    text-align: center;
-    padding   : 0 4rem;
-}
 
 a {
     text-decoration: none;
@@ -216,6 +208,42 @@ a {
     text-decoration: none;
     color          : #fff;
 }
+#footer {
+    padding-top: 100px;
+    min-width: 785px;
+    background-color: #041228; /* Move the background color here */
+}
+
+#footer-card {
+    border: none;
+    color: white;
+}
+
+/* Remove background color from #footer-card */
+
+#footer-col-1 {
+    padding: 0 1rem;
+}
+
+#footer-col-2 {
+    text-align: center;
+    padding: 0 4rem;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-col-3 {
+    padding: 0 1rem 0 4rem;
+}
+
+#social {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 #myBtn {
