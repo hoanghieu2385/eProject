@@ -6,7 +6,7 @@ body {
 [class*="col"] {
   padding: 1rem;
   border: 2px;
-  color: #758993;
+  color: #50636c;
 }
 
 ul#menu {
@@ -48,7 +48,7 @@ ul#menu li a {
 }
 
 #menu ul.sub-menu a:hover {
-  background-color: #fff;
+  background-color: #50636c;
 }
 
 #menu ul.sub-menu li:last-child a {
@@ -136,6 +136,11 @@ ul#menu li a {
 
 p.card-text {
   font-size: 14px;
+}
+
+p {
+  margin-top: 1rem;
+  max-width: 620px;
 }
 
 #image-in-content {
