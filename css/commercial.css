@@ -76,7 +76,7 @@ nav {
 h1, h2, h3 {
     color: #456cb7;
 }
-p{
+.boidz p{
     color:  #50636c;
 }
 
@@ -103,7 +103,7 @@ body {
 .about {
     display: flex;
     box-sizing: border-box;
-    background-color: rgba(87, 87, 80, 0.34);
+    background-color: rgb(203 203 203 / 34%);
     border-radius: 2%;
     padding: 30px;
     clear: both;
