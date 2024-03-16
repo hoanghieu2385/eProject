@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family: Roboto;
+    font-family: 'Shameimaru Sans', sans-serif;
     color      : white;
 
 }
@@ -189,7 +189,7 @@ p {
 }
 
 #footer-card {
-    background-color: transparent;
+    background-color: #041228;
     border          : none;
     color           : white;
 }

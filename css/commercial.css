@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
-    font-family : Roboto;
+    font-family: 'Shameimaru Sans', sans-serif;
     color       : white;
     word-spacing: 5%;
 
@@ -43,7 +43,7 @@ nav {
 
 #main-menu ul.sub-menu {
     position        : absolute;
-    background-color: rgb(38, 34, 34);
+    background-color: #1d2a3e;
     padding         : 5px 0;
     list-style      : none;
     width           : 130px;
@@ -56,11 +56,11 @@ nav {
 
 #main-menu ul.sub-menu a {
     padding      : 8px 15px;
-    border-bottom: 1px solid rgb(63, 63, 63);
+    border-bottom: 1px solid #1d2a3e;
 }
 
 #main-menu ul.sub-menu a:hover {
-    background-color: rgb(63, 63, 63);
+    background-color: #1d2a3e;
 }
 
 #main-menu ul.sub-menu li:last-child a {
