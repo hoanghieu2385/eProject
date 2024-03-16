@@ -48,7 +48,7 @@ ul#menu li a {
 }
 
 #menu ul.sub-menu a:hover {
-  background-color: #50636c;
+  background-color: rgb(80, 94, 118);
 }
 
 #menu ul.sub-menu li:last-child a {
