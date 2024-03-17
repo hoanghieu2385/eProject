@@ -222,51 +222,53 @@ body {
 
 /*-------------------- ket thuc phan body --------------------*/
 
-#footer {
-    padding-top: 50px;
-    min-width  : 785px;
-    max-width: 1520px;
-    background-color: #041228;
-}
-
-.card-body1{
-    text-align: left;
-    margin-left: 15%;
-    margin-top: 3%;
-}
-
 #links-footer {
     text-decoration: none;
-    color          : beige;
+    color: beige;
+}
+
+#footer {
+    padding-top: 30px;
+    background-color: #041228;
+}
+#footer p {
+    color: white;
 }
 
 #footer-card {
-    background-color: transparent;
-    border          : none;
-    color           : white;
+    background-color: #041228;
+    border: none;
+    color: white;
 }
 
 #footer-col-1 {
-    padding: 0 1rem;
+    text-align: start;
+    padding: 0 0 0 4rem;
 }
 
 #footer-col-2 {
     text-align: center;
-    padding   : 0 4rem;
+    padding: 0 4rem;
 }
 
 a {
     text-decoration: none;
-    list-style     : none;
+    list-style: none;
 }
 
 #footer-col-3 {
-    padding: 0 1rem 0 4rem;
+    text-align: start;
+    padding: 0 0 0 5rem;
 }
 
 #social {
     text-decoration: none;
-    color          : #fff;
+    color: #fff;
+}
+
+footer{
+    background-color: #041228;
+
 }
 
 #myBtn {
